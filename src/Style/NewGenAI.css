@@ -1,0 +1,1035 @@
+@font-face {
+    font-family: DMSansBold;
+    src: url('../Assets/font/DMSans-Bold.ttf')
+}
+
+@font-face {
+    font-family: DMSansMedium;
+    src: url('../Assets/font/DMSans-Medium.ttf')
+}
+
+@font-face {
+    font-family: DMSansRegular;
+    src: url('../Assets/font/DMSans-Regular.ttf')
+}
+
+
+#GenAi {
+    font-family: DMSansRegular;
+   
+}
+
+.DMSansBold {
+    font-family: DMSansBold;
+}
+
+.DMSansMedium {
+    font-family: DMSansMedium;
+}
+
+.DMSansRegular {
+    font-family: DMSansRegular;
+}
+
+/* mobile banner none section */
+#GenAi .genAiMobBanner{
+  display: none;
+}    
+#GenAi .GenAiBanner {
+    background-image: url('../Assets/Image/NewService/GenAI/GenAibackground.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    /* min-height: 60vh; */
+    margin-top: 75px;  
+}
+  
+
+#GenAi .GenAiBanner .GenAiBannerLeft {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    /* padding-top: 75px; */
+}
+#GenAi .GenAiBanner .GenAiBannerLeft .bannerBtn {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 12px 35px;
+    background-color: #7F40FF;
+    color: #FFFFFF;
+    font-family: DMSansMedium;
+   
+}
+/* #GenAi .GenAiBannerLeft .h6, h6 {
+    font-size: small;
+} */
+/* #GenAi .text-bannerpara {
+    max-width: 75%;
+} */
+#GenAi .GenAiBanner .bannerButtons {
+    display: flex;
+    gap: 10px; 
+    
+  }
+  #GenAi .GenAiBanner .GenAIImg{
+    max-width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  #GenAi .GenAiBanner .GenAIImg img{ 
+    width: 70%;
+    height: 75;
+    margin-top: 35px 
+  }
+ #GenAi .GenAiBanner .exploreButton,
+.watchVideoButton {
+  height: 40px; 
+  width: 200px; 
+  font-size: 12px; 
+  border-radius: 8px;
+}
+  
+  #GenAi .GenAiBanner .bannerButtons a {
+    text-decoration: none; 
+  }
+
+  #GenAi .GenAiBanner .exploreButton {
+    background-color: #242cca; 
+    color: #fff; 
+    
+  }
+  
+  #GenAi .GenAiBanner .watchVideoButton {
+    background-color: #fff; 
+    color: #007bff; 
+     
+  }
+  #GenAi  .firstimg {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #GenAi .firstimg img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5; 
+    transition: opacity 0.3s ease; 
+  }
+/* section 3 mobile view hiding */
+  #GenAi .Sec3Mobile{
+    display: none;
+}
+#GenAi .MobileCTA{
+  display: none;
+}
+#GenAi .MobileKeyService{
+  display: none;
+}
+/* section 3 */
+  #GenAi .homeService {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+#GenAi .homeService h1 {
+    font-weight: 600;
+    text-align: center;
+}
+
+#GenAi .desktopsec2 .homeServiceRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(247, 248, 253, 1);
+    border-radius: 5px;
+}
+
+
+#GenAi .homeServiceRow .homeServiceColMain {
+    background-color: #FFFFFF;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+    margin: 0px 10px;
+    /* min-width: 160px; */
+    min-height: 150px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#GenAi .homeServiceRow .homeServiceColMain h5 {
+    color: #292930;
+    font-family: DMSansMedium;
+    font-size: 16px;
+}
+
+#GenAi .homeServiceRow .homeServiceColMain>.col:first-child {
+    display: flex;
+    align-items: end;
+}
+
+#GenAi .homeServiceRow .homeServiceColMain:hover {
+    border-bottom: 2px solid #7F40FF;
+}
+#GenAi .homeServiceRow .active {
+  border-bottom: 2px solid #793ef2;
+}
+
+#GenAi .homeServiceRow .homeServiceColMainMore {
+    background-color: #82CEFD;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+    margin: 0px 10px;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+#GenAi .homeServiceRow .homeServiceColMainMore {
+    flex-direction: column;
+    min-width: 150px;
+    min-height: 150px;
+    gap: 10px;
+}
+
+#GenAi .homeServiceRow .homeServiceColMainMore>.col:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#GenAi .homeServiceRow .homeServiceColMainMore>.col:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#GenAi .homeServiceRowText {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+#GenAi .homeServiceRowText h4 {
+    text-align: left;
+    color: #5800FF;
+    font-family: DMSansBold;
+}
+
+#GenAi .homeServiceRowText p {
+    text-align: left;
+    color: #6473A0;
+    font-family: DMSansMedium;
+}
+#GenAi .rowcolor{
+    background-color: rgba(247, 248, 253, 1);
+    border-radius: 5px;
+}
+
+#GenAi .homeServiceColMain img{
+    width: 25%;
+    border-radius: 25px;
+}
+#GenAi   .homeServiceColMain{
+    max-height: min-content;
+}
+/*  Section 3 */
+
+/* Display Card */
+#GenAi .homeDisplayCard {
+    background-image: url('../Assets/Image/NewService/GenAI/GenAiDisplayCard.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 45vh;
+    max-height: auto;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#GenAi .homeDisplayCard .homedisplaycardfirst{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+#GenAi .homeDisplayCard .homeDisplayCardCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#GenAi .homeDisplayCard .homedisplaycardfirst h3{
+font-family: DMSansMedium;
+color: #FFFFFF;
+}
+#GenAi .homeDisplayCard .homedisplaycardfirst small{
+    font-family: DMSansMedium;
+    color: #FFFFFF;
+}
+#GenAi .homeDisplayCard .homedisplaycardfirst button{
+    width: 250px;
+  border: none;
+  outline: none;
+  color: #FFFFFF;
+  background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 10px 20px;
+text-align: left;
+position: relative;
+}
+#GenAi .homeDisplayCard .homedisplaycardfirst img{
+position: absolute;
+right: 20px;
+top: 10px;
+}
+#GenAi .homeDisplayCard .homedisplaycardSecondMobile {
+  display: none;
+}
+
+#GenAi .homeDisplayCard .homedisplaycardSecond{
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    gap: 10px;
+    padding: 20px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#GenAi .homeDisplayCard .homedisplaycardSecond .whycheckdiv {
+  position: relative;
+}
+
+#GenAi .homeDisplayCard .homedisplaycardSecond input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  zoom: 3.5;
+  cursor: pointer;
+}
+
+#GenAi .homeDisplayCard .homedisplaycardSecond h5{
+    font-family: DMSansMedium;
+    color: #FFFFFF;
+    }
+#GenAi .homedisplaycardSecond p{
+        font-family: DMSansMedium;
+        color: #FFFFFF;
+    }
+
+#GenAi .homeTimeRow{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-top: 30px;
+    height: 80px;
+}
+#GenAi .homeTimeline{
+    display: flex;
+    background-color: #FFFFFF;
+    opacity: 0.2;
+    justify-content: space-around;
+    height: 1px;
+}
+#GenAi .homeTimelineText{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: -7px;
+}
+
+#GenAi .homeTimelineText h5{
+   font-size: 16px;
+   color: #FFFFFF;
+   opacity: 1;
+   font-family: DMSansBold;
+}
+#GenAi .round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#GenAi .round>div:nth-child(2){
+    padding-top: 25px;
+}
+#GenAi .Radiocontainer {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  #GenAi .Radiocontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  #GenAi .checkmark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    z-index: 9;
+  }
+  #GenAi .checkShadow{
+    position: absolute;
+    top:-5.5px;
+    right: -5.5px;
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+  #GenAi .CheckRed {
+    background-color: #FD346E;
+  }
+  #GenAi .CheckBlue {
+    background-color: #1EE2CF;
+  }
+  #GenAi .CheckYellow {
+    background-color: #FCDC02;
+  }
+  #GenAi .CheckOrange {
+    background-color: #FF7F63;
+  }
+
+  #GenAi .Radiocontainer input:checked ~ .checkShadow {
+    background: #FFFFFF;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border: 1px solid #FFFFFF;
+  }
+  
+  #GenAi .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* new css for displaycard */
+  
+
+
+  /* section ai solution */
+  #GenAi .ColElement p{
+    font-size: 12px;
+    color: rgba(138, 144, 162, 1);
+    font-family: DMSansRegular;
+  }
+  #GenAi .ColElement h4{
+      font-size: 40px;
+      color: rgba(0, 0, 0, 1);
+      font-family: dmSansBold;
+  }
+  #GenAi .Content1 h5{
+      color: rgba(22, 28, 45, 1);
+      font-size: 20px;
+      font-family: dmSansBold;
+  }
+  #GenAi .Content1 img{
+      max-width: 40px;
+      margin-top: -20px;
+  }
+  #GenAi .Content1 p{
+      font-size: 17px;
+      font-family: DMSansRegular;
+      line-height: 30px;
+  }
+  #GenAi .rowCol{
+      padding: 8px;
+      margin-top: -15px;
+  }
+  /* Display none for second section */
+  #GenAi .mobilesec2{
+    display: none;
+  }
+  #GenAi .desktopsec2 .AIbg{
+    background-image: url(../Assets/Image/NewService/GenAI/GenAiSec2Bg.svg)!important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: auto;
+    border-radius: 45px ;
+    
+    
+  }
+  #GenAi .rowColdiv div{
+    min-height: 330px;
+    max-height: max-content;
+  }
+  #GenAi .Content1{
+        height: 200px;
+        width: 400px;
+     
+  }
+
+  /* section key services */
+  #GenAi .borders{
+    border: 1px solid rgba(232, 234, 241, 1);
+    border-radius: 20px;
+    padding: 28px;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 230px;
+}
+#GenAi .borders img{
+       max-width: 33px;
+}
+
+#GenAi .ServiceHead{
+    font-family: DMSansBold;
+    color: rgba(5, 2, 95, 1);
+    font-size: 38px;
+    font-weight: 700;
+}
+#GenAi .headings{
+    color: rgba(3, 1, 94, 1);
+    font-size: 18px;
+    font-family: DMSansMedium;
+    font-weight: 500;
+}
+#GenAi .para{
+    color: rgba(95, 97, 104, 1);
+    font-family: DMSansRegular;;
+    font-weight: 400;
+    font-size: 12px;
+  
+}
+#GenAi .para1{
+    font-size: 13px;
+    color: rgba(138, 144, 162, 1);
+    font-family: DMSansRegular;
+    font-weight: 400;
+}
+#GenAi .ColElement{
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: center;
+}
+#GenAi .borders:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+#GenAi .Arrows{
+    background-color:rgba(104, 101, 255, 0.1);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+#GenAi .Arrows img {
+max-width: 9px;
+}
+#GenAi .borders:hover .Arrows{
+    background-color: rgba(111, 27, 247, 1);
+    
+}
+#GenAi .borders:hover .Arrows img{
+    filter: brightness(5);
+}
+
+/* industry we serve */
+#GenAi .RecentHeading{
+    text-align: center;
+    color: #8A90A2;
+}
+#GenAi .head{
+    font-family: DMSansBold !important;
+    margin-bottom: 30px;
+    color:#000000 !important;
+    
+}
+#GenAi .sass-App{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  #GenAi .sass-border{
+    border-radius:30px  0px 30px 0px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding: 40px;
+    max-width: 250px;
+    height: 180px;
+  }
+  #GenAi .sass-border img{
+   max-width: 65px;
+  }
+  #GenAi .sass-border h6{
+      font-size: 22px;
+      font-family: "Nunito", sans-serif;
+      font-weight: 500;
+  }
+  
+  @media (max-width:700px) {
+    
+    #GenAi .max-width-100{
+      height: 265px;
+    }
+   #GenAi .sass-App {
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      overflow-x:scroll !important;
+      justify-content: flex-start;
+    }
+  }
+
+  /* GenAi */
+  #GenAi  .Sliders{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-wrap: nowrap;
+    /* -ms-overflow-style: none; 
+    scrollbar-width: none; */
+    overflow-x: scroll !important;
+    gap: 20px;
+}
+
+#GenAi  .Sliders::-webkit-scrollbar {
+  display: none; 
+}
+#GenAi .centered-div{
+    min-width: 380px;
+    min-height: 200px;
+}
+
+#GenAi .centered-div img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    /* object-fit: contain; */
+    object-position: center;
+    border-radius: 20px;
+}
+#GenAi .centered-div .imgone{
+  height: 70%;
+  margin-top: 50px;
+}
+#GenAi .centered-div .imgtwo{
+  height: 70%;
+  margin-top: 50px;
+  margin-left: -40px;
+}
+#GenAi .centered-div .imgthree{
+  
+  margin-left: -40px;
+}
+  #GenAi .process-title h5{
+    color: rgba(0, 0, 0, 1);
+    font-family: DMSansBold;
+    font-size: 40px;
+  }
+  #GenAi .process-title p{
+    color: rgba(95, 97, 104, 1);
+    font-family: DMSansRegular;
+    font-size: 10px;
+  }
+
+  /* service with icon page */
+  #GenAi .component3 .analytics-left h5{
+    font-family: DMSansBold;
+    font-size: 16px;
+ }
+ #GenAi .component3 .analytics-left .nav{
+   background-color: #F2F2F2;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 5px;
+   margin-bottom: 15px;
+   cursor: pointer;
+ }
+ #GenAi .component3 .analytics-left .nav:hover{
+  color: #ffffff !important;
+ }
+ #GenAi .component3 .analytics-left .active,
+ .analytics-left .nav:hover{
+   background-color:#473BF0 ;
+   color: #ffffff;
+ }
+ 
+ #GenAi .component3 .analytics-left .nav .right-icon{
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ #GenAi .component3 .analytics-left .nav:hover  .right-icon,
+ .analytics-left .active .right-icon{
+   background-color:#ffffff;
+   opacity: 0.8;
+   color: #000;
+ }
+ 
+ #GenAi .component3 .analytics-right{
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   border-radius: 5px;
+   padding: 30px;
+ }
+ #GenAi .component3 .rowmain{
+   justify-content: space-around;
+   background-color: #FCFCFC;
+   
+ }
+ #GenAi .component3 .answercol{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 10px;
+ }
+ #GenAi .component3 .paradiv{
+   margin-left: 25px;
+   margin-right: 25px;
+   text-align: center;
+ }
+ 
+ #GenAi .component3  h4{
+   color: #1c1b2b;
+   font-family: DMSansBold;
+   font-size: small;
+   
+ }
+ #GenAi .component3 .headcontent{
+  font-family: DMSansBold;
+  font-size: 40px;
+ }
+ #GenAi .homeAboutMobile{
+  display: none;
+ }
+
+ /* Home Form */
+#GenAi .homeMobileForm {
+  display: none;
+}
+
+#GenAi .homeForm .marginTop {
+  margin-top: 40px;
+  padding: 20px 0px;
+}
+
+#GenAi .homeForm {
+  background: url('../Assets/Image/NewService/GenAI/formBanner.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 0px;
+}
+
+#GenAi .homeForm .formRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#GenAi .homeForm .contact-form input,
+#GenAi .homeForm .contact-form select,
+#GenAi .homeForm .contact-form textarea {
+  width: 100%;
+  height: 40px;
+  /* background-color: transparent; */
+  outline: none;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 5px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#GenAi .homeForm .contact-form input::placeholder,
+#GenAi .homeForm .contact-form textarea::placeholder {
+  color: #ffffff;
+  padding-left: 5px;
+}
+
+#GenAi .homeForm .FormHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#GenAi .homeForm .FormHead .frmTitle {
+  color: #ffffff;
+  font-family: DMSansBold;
+}
+
+#GenAi .homeForm .FormHead .frmDesc {
+  color: #C9C9C9;
+  font-family: DMSansMedium;
+  text-align: text-center;
+}
+
+#GenAi .homeForm .contact-form textarea {
+  height: 60px;
+}
+
+#GenAi .homeForm .contact-form select option {
+  color: #000;
+}
+
+#GenAi .homeForm .submit-btn {
+  display: flex;
+  justify-content: center;
+}
+
+#GenAi .homeForm .submit-btn button {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 12px 35px;
+  background-color: #ffffff;
+  color: #000;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#GenAi .homeForm .submit-btn button:hover {
+  background: linear-gradient(to right, #B100FF, #5800FF);
+  color: var(--white)
+}
+
+/* Home Form */
+
+#GenAi .MobileBlogMain {
+  display: none;
+}
+
+#GenAi .homeBlog {
+  /* min-height: 80vh; */
+  padding: 30px 0px;
+  background-color: #EDEFFA;
+}
+
+#GenAi .homeBlogHead {
+  text-align: center;
+  font-family: DMSansBold;
+}
+
+#GenAi .homeBlogCard {
+  max-width: 290px !important;
+  margin-left: 20px !important;
+  border-radius: 10px !important;
+}
+
+#GenAi .homeBlogCard .row:first-child {
+  background-color: #B2B0C1;
+  height: 160px;
+  width: 315px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+
+}
+
+#GenAi .homeBlogCard .row:first-child img {
+  padding: 0px 0px !important;
+}
+
+#GenAi .homeBlogCard .row:nth-child(2) {
+  background-color: #FFFFFF;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+#GenAi .homeBlogCard .row:nth-child(2) h5 {
+  color: #171151;
+  font-size: 15px;
+  font-family: DMSansBold;
+}
+
+#GenAi .homeBlogCard:hover .row:nth-child(2) h5 {
+  color: #6A0EFF;
+}
+
+#GenAi .homeBlogCard .row:nth-child(2) h6 {
+  color: #8A879F;
+  font-size: 12px;
+}
+
+#GenAi .homeBlogCard .row:nth-child(2) p {
+  color: #171151;
+  font-size: 10px;
+  padding-left: 10px !important;
+  font-family: DMSansMedium;
+  font-weight: 600;
+}
+
+#GenAi .homeBlogCard .homeBlogCardTime {
+  display: flex;
+  align-items: center;
+}
+
+#GenAi .homeBlogCard .homeBlogCardTime div:first-child {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+#GenAi .homeBlogCard .homeBlogCardTime div:nth-child(2) {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#GenAi .homeBlogCard .homeBlogCardTime div:nth-child(2) {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#GenAi .homeBlog .slick-prev {
+  position: absolute;
+  right: 70px !important;
+  top: -25% !important;
+  left: inherit !important;
+  width: 60px;
+  height: 60px;
+  background: url('../Assets/Image/NewService/GenAI/LeftArrow.svg') !important;
+  content: '' !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  border: none !important;
+  color:rgba(0,0,0,0)
+}
+
+#GenAi .homeBlog .slick-prev::before {
+  content: "" !important;
+}
+
+#GenAi .homeBlog .slick-next {
+  position: absolute;
+  background: url('../Assets/Image/NewService/GenAI/RightArrow.svg');
+  right: 0px !important;
+  top: -25% !important;
+  left: inherit !important;
+  width: 60px;
+  height: 60px;
+  content: '' !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  border: none !important;
+  color:rgba(0,0,0,0)
+}
+
+#GenAi .homeBlog .slick-prev:hover {
+  position: absolute;
+  background: url('../Assets/Image/NewService/GenAI/BlueLeftArrow.svg') !important;
+  content: '' !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  right: 70px !important;
+  top: -25% !important;
+  left: inherit !important;
+  width: 60px;
+  height: 60px;
+}
+
+#GenAi .homeBlog .slick-next:hover {
+  position: absolute;
+  background: url('../Assets/Image/NewService/GenAI/BlueRightArrow.svg') !important;
+  right: 0px !important;
+  top: -25% !important;
+  left: inherit !important;
+  width: 60px;
+  height: 60px;
+  content: '' !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Blog Section */
+
+/* faq display none*/
+#GenAi .homeFaqMobile{
+  display: none;
+}
+
+/* icon and service display none */
+#GenAi .mobileIconSerices{
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1000px){
+  #GenAi .DesktopKeyService .borders{
+    width: 230px !important;
+    height: 200px !important;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 1000px){
+  #GenAi .sass-border {
+    width: 220px !important;
+    padding: 0px !important;
+  }
+}
+
+ 

@@ -1,0 +1,118 @@
+/* `xs` returns only a ruleset and no media query */
+/* ... { ... } */
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* first section */
+    #MvpPage .Discover .DisContent h4,
+    #MvpPage .Solution-Heading h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    #MvpPage .Discover .DisContent p {
+        line-height: 25px;
+    }
+
+    #MvpPage .Banner .img-fluid {
+        width: 400px;
+    }
+
+    /* second section */
+    #MvpPage .Discover .DisContent button {
+        padding: 8px 40px;
+    }
+
+    #MvpPage .Decoding-Banner {
+        padding: 30px 10px;
+    }
+
+    #MvpPage .Decoding-Heading h5 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    #MvpPage .Decoding-Content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #MvpPage .Solution-Content h5 {
+        font-size: 15px;
+    }
+
+    #MvpPage .Solution-Content img {
+        width: 40px;
+    }
+
+    #MvpPage .Solution-Content p {
+        color: rgba(22, 28, 45, 1);
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    #MvpPage .Solution-Content {
+        padding: 10px 12px;
+    }
+
+    #MvpPage .ServiceMvp .rowcolor {
+        flex-wrap: nowrap;
+    }
+
+    #MvpPage .MvpServiceColMain img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #MvpPage .ServiceMvp .MvpServiceRow .MvpServiceColMain {
+        min-width: 170px;
+        min-height: 170px;
+        gap: 14px;
+    }
+
+    #MvpPage .sass-border {
+        width: 200px;
+    }
+
+    #MvpPage .DevelopMvp label {
+        font-size: 15px;
+    }
+
+    #MvpPage .ServiceMvp .MvpService h1,
+    #MvpPage #NewFaq .homeFaq h1,
+    #MvpPage #NewBlogPage .homeBlogHead h1,
+    #MvpPage .Our-Heading h4,
+    #MvpPage .texts-Heading h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    #MvpPage #NewFaq .homeFaq {
+        padding: 20px 0;
+    }
+
+    #MvpPage .Our-Content {
+        width: auto;
+    }
+
+    /* #MvpPage #NewFaq .homeFaq h1 {
+        font-size: 25px;
+        line-height: 30px;
+    } */
+}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/* xxxl Desktops,  (large desktops, above than 1400px)*/
+@media (min-width: 1400px) {}

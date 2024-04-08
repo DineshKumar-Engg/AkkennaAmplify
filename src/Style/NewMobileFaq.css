@@ -1,0 +1,128 @@
+.homeFaqMobile{
+    display: none;
+}
+@media only screen and (max-width:600px) and (min-width:300px) {
+.homeFaq {
+        display: none !important;
+    }
+    
+   .homeFaqMobile {
+        display: block !important;
+    }
+    
+    .homeFaqMobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F7F8FD;
+        padding: 20px 10px;
+    }
+    
+   .homeFaqMobileMain {
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+ .homeFaqMobileMain h3 {
+        font-size: 20px;
+        font-family: DMSansBold;
+    
+    }
+    
+    #homeFaqCanva {
+        min-height: 400px !important;
+        max-height: auto !important;
+        border: none !important;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    #homeFaqCanva .homeFaqCanvaText h5 {
+        color: #292930;
+        font-family: DMSansBold;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    #homeFaqCanva .offcanvas-header {
+        display: flex !important;
+        justify-content: center !important;
+        margin-top: -20px;
+        /* padding: 0px 0px !important; */
+    }
+    
+    #homeFaqCanva .offcanvas-header button {
+        background-color: #FFFFFF !important;
+        border-radius: 50% !important;
+        opacity: 1 !important;
+        z-index: 99;
+    }
+    
+    #homeFaqCanva .offcanvas-body {
+        padding: 0px !important;
+    }
+    
+    #homeFaqCanva .homeFaqCanvaRow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+    }
+    
+    #homeFaqCanva .homeFaqCanvaText .homeFaqCanvaRow .accordion-item {
+        --bs-accordion-border-color: transparent !important;
+        margin-top: 10px !important;
+        padding: 2px 0px !important;
+    }
+    
+    #homeFaqCanva .homeFaqCanvaText .homeFaqCanvaRow .accordion-button:focus {
+        border-color: none !important;
+        box-shadow: none !important;
+    }
+    
+    #homeFaqCanva .homeFaqCanvaText .homeFaqCanvaRow .accordion-button {
+        color: #141125 !important;
+        font-family: DMSansMedium !important;
+        border-top: 1px solid #B9B9B9 !important;
+        border-right: 1px solid #B9B9B9 !important;
+        border-left: 1px solid #B9B9B9 !important;
+        border-bottom: 1px solid #B9B9B9 !important;
+        --bs-accordion-border-color: transparent !important;
+        border-radius: 6px 6px 0px 0px !important;
+        font-size: 15px;
+    }
+    
+    #homeFaqCanva .homeFaqCanvaText .homeFaqCanvaRow .accordion-body {
+        color: #595B62 !important;
+        background-color: #FFFFFF !important;
+        border-bottom: 1px solid #B9B9B9 !important;
+        border-right: 1px solid #B9B9B9 !important;
+        border-left: 1px solid #B9B9B9 !important;
+        font-size: 14px !important;
+        font-family: DMSansMedium !important;
+    }
+    
+    #homeFaqCanva .homeFaqCanvaText .homeFaqCanvaRow .accordion-button:not(.collapsed) {
+        background-color: #FFFFFF !important;
+        border-bottom: none !important;
+    }
+    
+    #homeFaqCanva .homeFaqCanvaText .homeFaqCanvaRow .accordion-button::after {
+        background-image: url('../Assets/Image/NewHome/ArrowFaq.svg') !important;
+        background-position: center !important;
+        background-size: auto !important;
+        width: 15px !important;
+        height: 25px !important;
+    }
+    
+    #homeFaqCanva .homeFaqCanvaText .homeFaqCanvaRow .accordion-button:not(.collapsed)::after {
+        border-radius: 50%;
+        background-image: url('../Assets/Image/NewHome/ArrowFaq.svg') !important;
+        background-position: center !important;
+        background-size: auto !important;
+    }
+}
+

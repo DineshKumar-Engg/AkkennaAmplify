@@ -1,0 +1,102 @@
+@font-face {
+    font-family: DMSansBold;
+    src: url('../Assets/font/DMSans-Bold.ttf')
+}
+
+@font-face {
+    font-family: DMSansMedium;
+    src: url('../Assets/font/DMSans-Medium.ttf')
+}
+
+@font-face {
+    font-family: DMSansRegular;
+    src: url('../Assets/font/DMSans-Regular.ttf')
+}
+
+
+#NewFaq {
+    font-family: DMSansRegular;
+}
+
+.DMSansBold {
+    font-family: DMSansBold;
+}
+
+.DMSansMedium {
+    font-family: DMSansMedium;
+}
+
+.DMSansRegular {
+    font-family: DMSansRegular;
+}
+/* Faq section */
+
+#NewFaq .homeFaq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    background-color: #F7F8FD;
+}
+
+#NewFaq .homeFaq h1 {
+    color: #292930;
+    font-family: DMSansBold;
+    text-align: center;
+}
+
+#NewFaq .homeFaq h1 {
+    color: #292930;
+    font-family: DMSansBold;
+}
+
+#NewFaq .homeFaqRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+#NewFaq .homeFaq .homeFaqRow .accordion-item {
+    --bs-accordion-border-color: transparent !important;
+    margin-top: 10px !important;
+    padding: 2px 0px !important;
+}
+
+#NewFaq .homeFaq .homeFaqRow .accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+#NewFaq .homeFaq .homeFaqRow .accordion-button {
+    color: #141125 !important;
+    font-family: DMSansBold !important;
+    border: none !important;
+    --bs-accordion-border-color: transparent !important;
+    border-radius: 10px !important;
+}
+
+#NewFaq .homeFaq .homeFaqRow .accordion-body {
+    color: #595B62 !important;
+    border: none !important;
+    background-color: #F5F5F8 !important;
+}
+
+#NewFaq .homeFaq .homeFaqRow .accordion-button:not(.collapsed) {
+    background-color: #FFFFFF !important;
+}
+
+#NewFaq .homeFaq .homeFaqRow .accordion-button::after {
+    background-image: url('../Assets/Image/NewHome/ArrowFaq.svg') !important;
+    background-position: center !important;
+    background-size: auto !important;
+}
+
+#NewFaq .homeFaq .homeFaqRow .accordion-button:not(.collapsed)::after {
+    border-radius: 50%;
+    background-image: url('../Assets/Image/NewHome/ArrowFaq.svg') !important;
+    background-position: center !important;
+    background-size: auto !important;
+}
+
+/* Faq section */

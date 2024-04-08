@@ -1,0 +1,97 @@
+.homeMobileFormDisplay{
+    display: none;
+}
+
+@media only screen and (max-width:600px) and (min-width:300px) 
+{
+    .homeMobileFormDisplay {
+        display: block !important;
+    }
+    
+    .homeMobileForm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0px;
+        background-color: #F7F8FD;
+    }
+    
+    .homeMobileFormRow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    .homeMobileFormRow div:first-child {
+        background: rgb(86, 9, 182);
+        background: linear-gradient(90deg, rgba(86, 9, 182, 1) 0%, rgba(40, 0, 90, 1) 100%);
+        border-radius: 10px 0px 0px 10px;
+        padding: 15px 20px;
+    }
+    
+    .homeMobileFormRow div:last-child {
+        background: rgb(158, 9, 182);
+        background: linear-gradient(125deg, rgba(158, 9, 182, 1) 0%, rgba(78, 0, 90, 1) 100%);
+        height: 100%;
+        border-radius: 0px 10px 10px 0px;
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .homeMobileFormRow div:first-child h3 {
+        color: #FFFFFF;
+        font-size: 20px;
+        font-family: DMSansBold;
+    }
+    
+   .homeMobileFormRow div:first-child p {
+        color: #D1B5FF;
+        font-size: 10px;
+        text-align: left;
+    }
+    
+    #homeFormCanva #NewContactForm {
+        margin-top: 0px !important;
+    }
+    
+    #homeFormCanva #NewContactForm .homeForm {
+        background: transparent !important;
+    }
+    
+    #homeFormCanva {
+        min-height: 400px !important;
+        max-height: auto !important;
+        background: rgb(85, 9, 180) !important;
+        background: linear-gradient(180deg, rgba(85, 9, 180, 1) 0%, rgba(41, 1, 91, 1) 100%) !important;
+        border: none !important;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    #homeFormCanva .offcanvas-header {
+        display: flex !important;
+        justify-content: center !important;
+        margin-top: -10px;
+        padding: 0px 0px !important;
+    }
+    
+    #homeFormCanva .offcanvas-body {
+        padding: 0px !important;
+    }
+    
+    #homeFormCanva .offcanvas-body p {
+        text-align: center !important;
+    }
+    
+    #homeFormCanva .offcanvas-header button {
+        background-color: #FFFFFF !important;
+        border-radius: 50% !important;
+        opacity: 1 !important;
+        z-index: 99;
+    }
+ 
+}
+

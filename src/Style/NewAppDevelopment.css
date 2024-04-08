@@ -1,0 +1,762 @@
+
+  #Appdevelopement .banner {
+    background-image: url(../Assets/Image/service-page/appBanner.webp);
+    min-height: 70vh;
+    max-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px !important;
+  }
+  
+  #Appdevelopement .bannerLeft {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px
+  }
+  
+  #Appdevelopement .banner .banner-hint {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  #Appdevelopement .banner .banner-title {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #00005b;
+  }
+  
+  #Appdevelopement .banner .textbannerpara {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    /* color: #3e3e3e; */
+  }
+  #Appdevelopement .bannerRightImage{
+    max-width: 100%;
+  }
+  #Appdevelopement  .bannerRightImage img{
+    max-width: 100%;
+  }
+  
+  #Appdevelopement .web-bannerBtn .whiteBtn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 33px 0px 25px 33px;
+    border: 1px solid #ffffff33;
+    font-family: Nunito;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: 800 !important;
+  }
+
+  #Appdevelopement .bg-whiteButton{
+    background-color: transparent !important;
+    border: 2px solid #ffffff !important;
+    color: #ffffff !important;
+  }
+  
+  #Appdevelopement .bg-whiteButton a{
+    color: #ffffff !important;
+  }
+  
+  #Appdevelopement .bg-whiteButton:hover{
+    background: #ffffff !important;
+    color: #000 !important;
+  }
+  #Appdevelopement .bg-whiteButton:hover a{
+    background: #ffffff !important;
+    color: #000 !important;
+  }
+
+  #Appdevelopement  .latest-web-dev {
+    background-color: #E1F7FF;
+  }
+  
+  #Appdevelopement .latestMobile{
+    display: none;
+  }
+
+  #Appdevelopement .latest-web-dev .lastestWeb a {
+    margin: auto;
+    padding: 10px;
+    border-right: 1px solid #858585;
+    border-radius: 0px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+  }
+  
+  #Appdevelopement .latest-web-dev-title p {
+    font-family: circularMedium;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: left;
+  }
+  
+  #Appdevelopement .latest-web-dev-description {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  #Appdevelopement .latest-web-dev-btn button {
+    border: unset;
+    background-color: transparent;
+    font-family: circularMedium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #00005b;
+  }
+  
+  #Appdevelopement .lastestWeb .nav-pills.active {
+    background-color: none !important;
+  }
+  
+  #Appdevelopement .lastestWeb .nav-link.active {
+    border-right: 4px solid #00005b !important;
+    background-color: inherit !important;
+    color: #00005b;
+    transition: all 500ms ease-in-out;
+  }
+  
+  #Appdevelopement .latest-web-dev .lastestWeb a {
+    font-family: circularMedium;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 30px;
+    text-align: left;
+    text-decoration: none;
+    color: #858585;
+  }
+  
+  #Appdevelopement .latest-web-dev-title p {
+    font-family: circularMedium;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: left;
+  }
+  
+  #Appdevelopement .latest-web-dev-description {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  #Appdevelopement .latest-web-dev-btn button {
+    border: unset;
+    background-color: transparent;
+    font-family: circularMedium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #00005b;
+  }
+  
+  #Appdevelopement .latest-web-dev-description p {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  
+  #Appdevelopement .latest-web-images {
+    position: relative;
+    margin: auto;
+    padding: 15px;
+    width: 75%;
+  }
+  
+  #Appdevelopement .latest-web-images .row {
+    position: relative;
+    right: 10%;
+  }
+  
+  #Appdevelopement .latest-web-images .site-images {
+    overflow: auto;
+    height: 500px;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  #Appdevelopement .latest-web-images .site-images a {
+    display: block;
+    width: 100%;
+  }
+  
+  #Appdevelopement .latest-web-images .site-images img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+  }
+  
+  #Appdevelopement .latest-web-images .site-images::-webkit-scrollbar {
+    width: 0px;
+  }
+  #Appdevelopement .latestMobile .LatestFormMobile .dropdown-form>select {
+    width: 100%;
+    background-color: white !important;
+    color: #000;
+    height: 50px;
+    border-radius: 10px;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+  }
+  
+  #Appdevelopement .latestMobile .LatestFormMobile .dropdown-form>select {
+    appearance: none;
+    background: url(../Assets/Image/common/light-skyblue-down-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+  }
+  
+  #Appdevelopement .latestMobile .LatestFormMobile select {
+    padding: 4px 20px;
+    margin: 10px 0px;
+    border: 1px solid #FFFFFF;
+  }
+  
+  #Appdevelopement .latestMobile .LatestFormMobile .latest-web-images {
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+  }
+  
+  #Appdevelopement .latestMobile .LatestFormMobile .site-images {
+  height: 500;
+  margin: 20px 0px;
+  }
+  #Appdevelopement .latestMobile .LatestFormMobile .show-hide {
+  display: none;
+  }
+
+
+  #Appdevelopement .experience-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #Appdevelopement .experience-details {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #Appdevelopement .webdevsliderItem {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 20px;
+  }
+  
+  #Appdevelopement .experience-description p {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    color: #444444;
+  }
+  
+  #Appdevelopement .experience-details-image {
+    margin: auto;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  #Appdevelopement .experience-details-title p {
+    font-family: circularMedium;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #0f2137;
+    margin-bottom: 0;
+  }
+  
+  #Appdevelopement .experience-details-description p {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #444444;
+    margin-bottom: 0.7rem !important;
+  }
+
+  #Appdevelopement .bgDarkVoilet{
+    background: linear-gradient(97.57deg, #23CC87 0%, #08E5C8 100%);
+  }
+  #Appdevelopement .hireHeading {
+    letter-spacing: 2px;
+    font-size: 25px;
+  }
+  
+  #Appdevelopement .hire-arrowImg {
+    max-width: 250px;
+  }
+  
+  #Appdevelopement .hire-arrowImg img {
+    max-width: 250px;
+  }
+  
+  #Appdevelopement .hirebtnbg {
+    background-image: url(../Assets/Image/btnbgimg.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  
+  #Appdevelopement .hirePosition {
+    position: relative;
+    display: flex;
+    justify-content: center
+  }
+  
+  #Appdevelopement .hirePosition img {
+    height: 136px;
+    width: 74px;
+  }
+  
+  #Appdevelopement .hirePositionRelatbutton {
+    position: absolute;
+    top: 45px;
+    width: 340px;
+  }
+  
+
+  .process-title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+  
+  .process-mobile {
+    display: none;
+  }
+  
+
+  #Appdevelopement .custom-solution .mobile-view {
+    display: none;
+  }
+  
+  #Appdevelopement .custom-solution .solution-title p {
+    font-family: circularMedium;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+    /* padding-bottom: 20px; */
+  }
+  
+  #Appdevelopement .custom-solution .solution-description p {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #444444;
+    padding-bottom: 20px;
+  }
+  
+  #Appdevelopement .solution-description-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #Appdevelopement .custom-solution .solution-description-list .col-md-11 {
+    margin: auto;
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  #Appdevelopement .custom-solution .solution-sub-title {
+    font-family: circularMedium;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+  }
+  
+  #Appdevelopement .custom-solution .solution-sub-description {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #444444;
+  }
+  
+  #Appdevelopement .custom-solution .solution-description-list li img{
+      width: 50px;
+      border-radius: 15px;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+  #Appdevelopement .custom-solution .solution-image {
+    max-width: 100% !important;
+  }
+  
+  #Appdevelopement .custom-solution .solution-image img {
+    max-width: 100% !important;
+  }
+
+
+  #Appdevelopement .ourservice {
+    background: linear-gradient(90deg, #E1F7FF 0%, #F0FFFD 100%);
+  }
+  
+  #Appdevelopement .ourservice-title {
+    font-size: 30px;
+    font-weight: 500 !important;
+    line-height: 45px;
+    text-align: center;
+    color: #00005B;
+  }
+  
+  #Appdevelopement .techCard {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    perspective: 1000px;
+    position: relative
+  }
+  
+  #Appdevelopement .frontCard,
+  #Appdevelopement .backCard {
+    height: 210px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: ease-in-out 600ms
+  }
+  
+  #Appdevelopement .frontCard {
+    font-weight: 600;
+    overflow: hidden
+  }
+  
+  #Appdevelopement .frontCard img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px
+  }
+  
+  #Appdevelopement .techCard-title {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    z-index: 99
+  }
+  
+  #Appdevelopement .frontCard:before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 39%, rgba(0, 0, 0, 1) 100%)
+  }
+  
+  #Appdevelopement .techCard:hover .frontCard {
+    transform: rotateY(180deg)
+  }
+  
+  #Appdevelopement .backCard {
+    background: linear-gradient(to right, #B100FF, #5800FF);
+    padding: 15px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    transform: rotateY(-180deg)
+  }
+  
+  #Appdevelopement .techCard:hover .backCard {
+    transform: rotateY(0deg)
+  }
+  
+  #Appdevelopement .cardBtnwhite {
+    background-color: var(--white);
+    color: var(--smallHeading);
+    font-weight: 700;
+    padding: 5px 20px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  #Appdevelopement .cardBtnwhite a {
+    color: var(--smallHeading);
+    text-decoration: none
+  }
+  
+  #Appdevelopement #sliderArrow .slick-prev:before,
+  #Appdevelopement #sliderArrow .slick-next:before {
+    display: none;
+  }
+  #Appdevelopement #sliderArrow .slick-list{
+  min-height: 220px !important;
+  }
+  
+  #Appdevelopement #sliderArrow .slick-prev {
+    left: -60px !important;
+  }
+  
+  #Appdevelopement #sliderArrow .slick-next {
+    right: -60px !important;
+  }
+
+  #Appdevelopement .guide-topics {
+    font-family: circularMedium;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-decoration: underline;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    display: inline-block;
+    line-height: 2rem;
+  }
+  /* #Appdevelopement  .guide-answers {
+    height: 600px;
+    overflow-y: scroll;
+    border: 1px solid transparent;
+  }
+   */
+
+   #Appdevelopement .guide-answers {
+    height: 550px;
+    overflow-y: scroll;
+    border: 1px solid transparent;
+  }
+  
+  #Appdevelopement .guide-title p {
+    font-family: circularMedium;
+    margin-bottom: 2px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+  }
+  
+  #Appdevelopement .guide-description {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    /* width: 53%; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #Appdevelopement .guide-topic-section {
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 25px;
+  }
+  
+  #Appdevelopement .guide-topics p {
+    font-family: circularMedium;
+  }
+  
+  #Appdevelopement .guide-topics ul {
+    list-style: none;
+  }
+  
+  #Appdevelopement .guide-topics a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  #Appdevelopement .guide-menu {
+    position: sticky;
+    padding: 20px;
+    margin-top: -15px;
+  }
+  
+  #Appdevelopement .guide-menu ul {
+    flex-direction: column;
+  }
+  
+  #Appdevelopement .guide-menu li {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  #Appdevelopement .guide-menu li.active a {
+    color: #3b0098;
+    font-weight: 700;
+  }
+  
+  #Appdevelopement .guide-menu li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+
+  #Appdevelopement .guide-answers::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  #Appdevelopement .guide-details {
+    padding: 35px 55px;
+    height: auto;
+    border-radius: 19px;
+    background-color: #6020bd;
+    color: #fff;
+    margin-bottom: 45px;
+  }
+  
+  #Appdevelopement .guide-sub-question {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: circularMedium;
+    font-weight: 500;
+  }
+  
+  #Appdevelopement .guide-sub-answer {
+    margin-bottom: 30px !important;
+    font-weight: 300;
+  }
+  #Appdevelopement .guide-details {
+    background: linear-gradient(90deg, #06E7CC 0%, #23CB84 100%);
+  }
+  #Appdevelopement .guide-sub-question,
+  #Appdevelopement .guide-sub-answer{
+  color: #000;
+  }
+  #Appdevelopement .guide-menu li.active a{
+  color: #000;
+  font-weight: 900;
+  }
+  #Appdevelopement .homeFaq {
+    margin-top: 50px;
+    margin-bottom: 50px
+  }
+  
+  #Appdevelopement .homeFaq .accordion-faq .accordion-item:first-of-type,
+  #Appdevelopement.homeFaq .accordion-faq .accordion-item:last-of-type,
+  #Appdevelopement.homeFaq .accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: 5px
+  }
+  
+  #Appdevelopement .homeFaq .accordion-faq .accordion-item {
+    margin: 20px 0;
+    border: none;
+    background: none
+  }
+  
+  #Appdevelopement .homeFaq .accordion-faq .accordion-item button {
+    background: #F6F6F6;
+    color: var(--AllPara);
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 5px
+  }
+  
+  #home .homeFaq .accordion-button {
+    border-radius: 8px
+  }
+  
+  #Appdevelopement .homeFaq .accordion-faq.accordion-item:last-of-type .accordion-collapse {
+    border-radius: 10px
+  }
+  
+  #Appdevelopement .homeFaq .accordion-faq .accordion-item .accordion-collapse {
+    background-color: var(--liteDark);
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important
+  }
+  
+  #Appdevelopement .homeFaq .accordion-faq .accordion-button:not(.collapsed) {
+    background: #1D1D1D;
+    color: var(--white);
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+    padding-right: 2rem
+  }
+  
+  #Appdevelopement .homeFaq .accordion-faq .accordion-button:not(.accordion-button:after) {
+    color: var(--white)
+  }
+  
+  #Appdevelopement .homeFaq .accordion-faq .accordion-body {
+    color: var(--white)
+  }
+  
+  #Appdevelopement .homeFaq .accordion-button:after {
+    color: var(--dark);
+    content: "-"
+  }
+  
+  #Appdevelopement .homeFaq .accordion-button.collapsed:after {
+    color: var(--dark);
+    content: "+"
+  }
+  
+  #Appdevelopement .homeFaq .accordion-button:not(.collapsed)::after {
+    color: #fff !important;
+    content: "-"
+  }
+  
+  #Appdevelopement .homeFaq .accordion-button:not(.collapsed)::after {
+    background-image: none !important
+  }
+  
+  #Appdevelopement .homeFaq .accordion-button::after {
+    background-image: none
+  }
+  
+  #Appdevelopement .homeFaq .accordion-button:not(.collapsed)::after {
+    color: #fff !important;
+    content: "-"
+  }
+  

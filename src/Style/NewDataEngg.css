@@ -1,0 +1,1267 @@
+@font-face {
+  font-family: DMSansBold;
+  src: url("../Assets/font/DMSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: DMSansMedium;
+  src: url("../Assets/font/DMSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: DMSansRegular;
+  src: url("../Assets/font/DMSans-Regular.ttf");
+}
+
+
+
+.DMSansBold {
+  font-family: DMSansBold;
+}
+
+.DMSansMedium {
+  font-family: DMSansMedium;
+}
+
+.DMSansRegular {
+  font-family: DMSansRegular;
+}
+
+#DES .MobileDiscover {
+  display: none;
+}
+
+#DES .Discover {
+  margin-top: 70px;
+  background-image: url('../Assets/Image/NewService/DataEngg/DataEnggBg.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: auto;
+  height: 570px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px !important;
+}
+
+#DES .Discover .Banner {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px !important;
+}
+
+#DES .Discover .DiscoverRow {
+  width: 60%;
+  display: flex;
+  justify-content: end;
+}
+
+#DES .Discover .DiscoverImg {
+  max-width: 100%;
+}
+
+#DES .Discover .DiscoverImg img {
+  width: 100%;
+}
+
+#DES .Discover .DisContent h4 {
+  color: rgba(255, 255, 255, 1);
+  font-family: DMSansBold;
+  /* font-size: 51px; */
+  font-size: clamp(1.25rem, 0.9722rem + 1.4815vw, 3.75rem);
+}
+
+#DES .Discover .DisContent p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-family: DMSansMedium;
+}
+
+#DES .Discover .Discdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  width: 85%;
+  justify-content: center;
+}
+
+#DES .Discover .DisContent button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-weight: 600;
+  font-family: DMSansMedium;
+}
+
+
+@media only screen and (max-width:3000px) and (min-width:1600px) {
+  /* #DES .Discover .Banner {
+    height: 500px;
+  }
+
+  #DES .Discover .DiscoverRow {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #DES .Discover .Discdiv {
+    width: 60%;
+  }
+
+  #DES .Discover .DiscoverImg {
+    width: 50%;
+    display: flex;
+    align-items: end;
+    object-fit: cover;
+  }
+
+  .DiscoverRow {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+  }
+
+  #DES .Discover .DiscoverImg img {
+    width: 70%;
+  } */
+}
+
+/* {Decoding section} */
+#DES .DecodingsMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#DES .MobileDecodingsMain {
+  display: none;
+}
+
+#DES .DecodingsMain .Decodings {
+  width: 95%;
+}
+
+#DES .Decodings .Decoding-Banner {
+  background-image: url('../Assets/Image/NewService/DataEngg/Bgbody.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 50px; */
+  max-height: auto;
+  border-radius: 0px 0px 25px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#DES .Decodings .Decoding-Banner .container-fluid {
+  width: 90%;
+}
+
+.DecodingImage {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: -20px;
+}
+
+#DES .Decodings .Decoding-Heading h5 {
+  color: rgba(1, 16, 61, 1);
+  font-family: DMSansBold;
+  font-size: 40px;
+}
+
+#DES .Decodings .Decoding-Content p {
+  color: rgba(95, 97, 104, 1);
+  font-family: DMSansRegular;
+  font-size: 14px;
+}
+
+@media only screen and (max-width:3000px) and (min-width:1600px) {
+  #DES .DecodingsMain .Decodings {
+    width: 70%;
+  }
+}
+
+/* DataContents section */
+#DES .DataContents {
+  margin: 30px 0px;
+}
+
+#DES .DataContents .Items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+#DES .DataContents h4 {
+  color: rgba(0, 0, 0, 1);
+  font-family: DMSansBold;
+  font-size: 40px;
+}
+
+#DES .DataContents p {
+  color: rgba(138, 144, 162, 1);
+  font-size: 10px;
+  font-family: DMSansRegular;
+}
+
+#DES .DataContents .Items .Item1,
+.Item3,
+.Item4,
+.Item6 {
+  height: 260px;
+  width: 340px;
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+#DES .DataContents .Item1 {
+  background-image: url('../Assets/Image/NewService/DataEngg/DataContents1.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#DES .DataContents .Item2 {
+  background-image: url(../Assets/Image/NewService/DataEngg/DataContents2.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  width: 360px;
+  height: 220px;
+  border-radius: 8px;
+}
+
+#DES .DataContents .Item3 {
+  background-image: url(../Assets/Image/NewService/DataEngg/DataContents3.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#DES .DataContents .Item4 {
+  background-image: url(../Assets/Image/NewService/DataEngg/DataContents4.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#DES .DataContents .Item5 {
+  background-image: url(../Assets/Image/NewService/DataEngg/DataContents5.svg);
+  /* background-size:auto; */
+  /* height:240px!important; */
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  margin-top: -40px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 360px;
+  border-radius: 8px;
+}
+
+#DES .DataContents .Item6 {
+  background-image: url(../Assets/Image/NewService/DataEngg/DataContents6.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#DES .DataContents h5 {
+  font-size: 26px;
+  color: rgba(255, 255, 255, 1);
+  text-align: start;
+  padding: 15px !important;
+}
+
+/*#DES .DataContents .Process2 {
+   margin-bottom: 35px !important;
+      padding: 45px !important; 
+}*/
+
+/* {Approach section } */
+
+#DES .Approach .DataEs h4 {
+  color: rgba(0, 0, 0, 1);
+  font-family: DMSansBold;
+  font-size: 40px;
+}
+
+#DES .Approach .DataEs p {
+  color: rgba(138, 144, 162, 1);
+  font-family: DMSansRegular;
+  font-size: 14px;
+}
+
+#DES .Approach .ApproachColMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#DES .Approach .contant {
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 220px; */
+  margin-bottom: 10px;
+}
+
+#DES .Approach .contant img {
+  max-width: 89px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7px;
+}
+
+#DES .Approach .contant h6 {
+  color: rgba(0, 0, 0, 1);
+  font-family: DMSansBold;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 25px;
+}
+
+#DES .Approach .contant p {
+  color: rgba(95, 97, 104, 1);
+  font-size: 13px;
+  font-family: DMSansRegular;
+  font-weight: 400;
+  text-align: center;
+  line-height: 15px;
+}
+
+#DES .Approach .ColElement {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* CreatWorld section */
+
+#DES .CreatWorld {
+  background: rgba(202, 214, 237, 0.20);
+  height: 60vh;
+  margin-top: -85px;
+  padding-top: 40px;
+}
+
+@media only screen and (max-width:3000px) and (min-width:1600px) {
+  #DES .CreatWorld {
+    height: 40vh;
+  }
+}
+
+#DES .CreatWorld .bgDiv {
+  display: flex;
+  justify-content: end;
+}
+
+#DES .CreatWorld .bgDiv img {
+  width: 80%;
+}
+
+#DES .CreatWorld .HeadingDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100% !important;
+  gap: 20px;
+}
+
+#DES .CreatWorld .HeadingDiv h4 {
+  color: rgba(88, 0, 255, 1);
+  font-size: 38px;
+  font-family: DMSansBold;
+}
+
+#DES .CreatWorld .HeadingDiv p {
+  color: rgba(100, 115, 160, 1);
+  font-size: 13px;
+  font-family: DMSansMedium;
+}
+
+#DES .CreatWorld .HeadingDiv1 h4 {
+  color: rgba(0, 0, 0, 1);
+  font-size: 40px;
+  font-family: DMSansBold;
+}
+
+#DES .CreatWorld .HeadingDiv1 p {
+  color: rgba(138, 144, 162, 1);
+  font-size: 13px;
+  font-family: DMSansRegular;
+}
+
+
+/* Card Items */
+#DES .CardItem {
+  background: #FFFFFF;
+  height: 60vh;
+  padding: 20px 0px;
+}
+
+@media only screen and (max-width:3000px) and (min-width:1600px) {
+  #DES .CardItem {
+    height: 40vh;
+  }
+}
+
+#DES .CardItem h3 {
+  color: rgba(0, 0, 0, 1);
+  font-size: 40px;
+  font-family: DMSansBold;
+}
+
+
+#DES .CardItem .DataItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 350px;
+  height: 250px;
+  gap: 11px;
+  padding: 10px;
+}
+
+#DES .CardItem .DataItems img {
+  max-width: 90px;
+}
+
+#DES .CardItem .DataItems h4 {
+  color: rgba(0, 0, 0, 1);
+  font-family: DMSansBold;
+  font-size: 24px;
+}
+
+#DES .CardItem .DataItems p {
+  color: rgba(22, 28, 45, 1);
+  font-family: DMSansRegular;
+  font-size: 15px;
+}
+
+#DES .CardItem .DataItems:hover {
+  background: linear-gradient(to bottom, rgba(243, 243, 243, 1), white);
+  border: 1px solid rgba(243, 243, 243, 1);
+  border-bottom: 0px;
+}
+
+/* Tech Edge section */
+#DES .MobileTechEdge {
+  display: none;
+}
+
+#DES .TechEdge {
+  margin-top: -30px;
+}
+
+#DES .TechEdge .TechImg {
+  max-width: 100%;
+  max-height: 120%;
+}
+
+#DES .TechEdgeRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media only screen and (max-width:3000px) and (min-width:1600px) {
+  #DES .TechEdgeRow {
+    width: 75%;
+  }
+}
+
+#DES .TechEdge .TechImg img {
+  max-width: 110%;
+
+}
+
+#DES .TechEdge h4 {
+  color: rgba(20, 17, 37, 1);
+  font-family: DMSansRegular;
+  font-size: 50px;
+}
+
+#DES .TechEdge .HeadSpan {
+  color: rgba(20, 17, 37, 1);
+  font-size: 53px;
+  font-family: DMSansBold;
+}
+
+#DES .TechEdge p {
+  color: rgba(95, 97, 104, 1);
+  font-family: DMSansRegular;
+  font-size: 13px;
+}
+
+#DES .TechEdge button {
+  color: rgba(20, 17, 37, 1);
+  font-family: DMSansBold;
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 14px 37px;
+  border-radius: 26px;
+  background-color: white;
+  border: 1px solid rgba(20, 17, 37, 0.1);
+}
+
+
+/* Data Guide */
+#DES .DataDevelopMvp {
+  font-family: DMSansRegular;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#DES .DataDevelopTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#DES .DataDevelopTitle h2 {
+  font-family: DMSansBold;
+  font-weight: 600;
+  padding-bottom: 10px !important;
+}
+
+#DES .DataDevelopTitle h6 {
+  font-family: DMSansRegular;
+}
+
+#DES .DataDevelopMvp .custom-radio {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+#DES .DataDevelopMvp .nav {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+
+#DES .DataDevelopMvp .radiobox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#DES .DataDevelopMvp .DevelopDataRadioDiv {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+#DES .DataDevelopMvp .DevelopDataRadioDiv div:first-child {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  /* background-color: #FFFFFF; */
+  background-color: #F2F2F2;
+  border-radius: 50%;
+  color: #B9B9B9;
+  /* padding-bottom:10px ; */
+}
+
+#DES .DataDevelopMvp .DevelopDataRadioDiv::before {
+  content: '';
+  width: 1px;
+  height: 70px;
+  border: 1px dashed #473BF0;
+  opacity: 0.3;
+  position: relative;
+  top: 45px;
+  left: 18px;
+}
+
+#DES .DataDevelopMvp .lastradio::before {
+  opacity: 0;
+}
+
+#DES .DataDevelopMvp .DataDevelopMvpImg {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#DES .DataDevelopMvp .DataDevelopMvpImg img {
+  width: 70%;
+}
+
+#DES .DataDevelopLabel {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#DES .DataDevelopLabel label {
+  font-family: DMSansBold;
+  color: #232323;
+  font-size: 16px;
+}
+
+#DES .DataDevelopLabel {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#DES .DataDevelopLabel p {
+  font-family: DMSansRegular;
+  color: #161C2D;
+  font-size: 14px;
+  text-align: justify;
+}
+
+#DES .DataDevelopMvp .DevelopDataRadioDiv div:nth-child(2) {
+  opacity: 0;
+}
+
+#DES .DataDevelopMvp .DevelopDataRadioDiv .active {
+  background-color: #473BF0 !important;
+  color: #FFFFFF !important;
+}
+
+#DES .DataDevelopMvp .active label {
+  color: #473BF0 !important;
+}
+
+#DES .DataDevelopMvp .radiobox h5 {
+  font-family: DMSansRegular;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Data Guide */
+#DES .MobileDataDevelop {
+  display: none !important;
+}
+
+/* Diverse section */
+#DES .Slidersec {
+  margin: 40px 0px;
+}
+
+#DES .Slidersec .Heading h4 {
+  color: rgba(22, 28, 45, 1);
+  font-family: DMSansBold;
+  font-size: 40px;
+}
+
+#DES .Slidersec .Heading p {
+  color: rgba(22, 28, 45, 1);
+  font-family: DMSansRegular;
+  font-size: 13.5px;
+}
+
+#DES .Slidersec .ContentDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid rgba(231, 233, 237, 1);
+  border-radius: 0px 0px 12px 12px;
+  padding: 17px;
+  border-top: 0;
+  /* width: 280px; */
+}
+
+
+#DES .Slidersec .HeadDiv {
+  width: 270px !important;
+  transition: transform 150ms ease-in-out;
+}
+
+#DES .Slidersec .slick-track {
+  height: 250px !important;
+}
+
+#DES .Slidersec .HeadDiv:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transform: scale(1.02);
+}
+
+#DES .Slidersec .ContentDiv h4 {
+  font-family: DMSansRegular;
+  color: rgba(22, 28, 45, 1);
+  font-size: 18px;
+}
+
+#DES .Slidersec .ContentDiv img {
+  max-width: 19px;
+}
+
+#DES .Slidersec .BgImg {
+  width: 100%;
+}
+
+#DES .Slidersec .BgImg img {
+  max-width: 100%;
+}
+
+#DES .Slidersec .slick-prev.slick-arrow {
+  position: absolute;
+  left: -50px;
+  top: 100px;
+  border: none;
+  background-image: url(../Assets/Image/NewService/DataAnalytics/sliderlefticon.svg);
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+  background-size: 100%;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+}
+
+#DES .Slidersec .slick-next.slick-arrow {
+  position: absolute;
+  Right: -50px;
+  top: 100px;
+  border: none;
+  background-image: url(../Assets/Image/NewService/DataAnalytics/sliderrighticon.svg);
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+  background-size: 100%;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+}
+
+#DES .Slidersec .slick-prev:before {
+  content: '';
+}
+
+@media only screen and (max-width:600px) and (min-width:300px) {
+  #DES .Discover {
+    display: none;
+  }
+
+  #DES .MobileDiscover {
+    background: linear-gradient(41deg, rgba(1, 254, 193, 1) 0%, rgba(65, 4, 164, 1) 100%);
+    background-image: url('../Assets/Image/NewService/DataEngg/MobileDataEnggBanner.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px !important;
+    height: 50vh;
+  }
+
+  .MobileDiscoverCont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  #DES .MobileDiscover h1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: DMSansBold;
+    /* font-size: 35px; */
+    text-align: start;
+  }
+
+  #DES .MobileDiscover p {
+    color: rgba(255, 255, 255, 1);
+    font-size: clamp(0.75rem, 0.5156rem + 0.75vw, 0.9375rem);
+    font-family: DMSansMedium;
+    text-align: start;
+  }
+
+  #DES .MobileDiscover button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: 600;
+    font-family: DMSansMedium;
+    width: 150px;
+  }
+
+  /* about section */
+  #DES .DecodingsMain {
+    display: none;
+  }
+
+  #DES .MobileDecodingsMain {
+    display: block !important;
+    margin-top: -15px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #DES .MobileDecodingsMain .MobileDecodingsRow {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 8px 10px;
+    gap: 6px;
+    flex-wrap: nowrap;
+    width: 95%;
+  }
+
+  #DES .MobileDecodingsMain .MobileDecodingsRow p {
+    text-align: left !important;
+  }
+
+  #DES .MobileDecodingsMain .MobileDecodingsRow .MobileDecodingsRowImg {
+    border-right: 1px solid #F0EDFF;
+    padding-right: 8px;
+  }
+
+  #DES .MobileDecodingsMain .MobileDecodingsRow .MobileDecodingsRowImg img {
+    width: 40px;
+    height: 40px;
+  }
+
+  #DataAboutCanva {
+    min-height: 450px !important;
+    max-height: auto !important;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  #DataAboutCanva .offcanvas-header {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: -25px;
+  }
+
+  #DataAboutCanva .offcanvas-header button {
+    background-color: #FFFFFF !important;
+    border-radius: 50% !important;
+    opacity: 1 !important;
+  }
+
+  #DataAboutCanva .homeAboutImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #DataAboutCanva .homeAboutImg img {
+    width: 80% !important;
+  }
+
+  #DataAboutCanva .homeAboutCanvaText h5 {
+    color: #3F4765;
+    font-family: DMSansBold;
+    font-size: 20px;
+    margin-top: 4px !important;
+  }
+
+  #DataAboutCanva .homeAboutCanvaText p {
+    color: #5F6168;
+    font-family: DMSansRegular;
+    font-size: 14px;
+    text-align: start;
+    margin-top: 4px !important;
+  }
+
+  /* DataContents  */
+
+  #DES .DataContents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  #DES .DataContents .Items {
+    width: 100%;
+    display: flex !important;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden !important;
+    overflow-x: scroll !important;
+    gap: 20px;
+  }
+
+  #DES .DataContents h4 {
+    font-size: 22px;
+  }
+
+  #DES .DataContents p {
+    color: rgba(138, 144, 162, 1);
+    font-size: 10px;
+    font-family: DMSansRegular;
+  }
+
+  #DES .DataContents .Items .Item1,
+  .Item2,
+  .Item3,
+  .Item4,
+  .Item5,
+  .Item6 {
+    height: 100px;
+    min-width: 180px !important;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 10px;
+  }
+
+  #DES .DataContents .Item1 {
+    background-image: url('../Assets/Image/NewService/DataEngg/DataContents1.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #DES .DataContents .Item2 {
+    background-image: url(../Assets/Image/NewService/DataEngg/DataContents2.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    min-width: 180px !important;
+  }
+
+  #DES .DataContents .Item3 {
+    background-image: url(../Assets/Image/NewService/DataEngg/DataContents3.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #DES .DataContents .Item4 {
+    background-image: url(../Assets/Image/NewService/DataEngg/DataContents4.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #DES .DataContents .Item5 {
+    background-image: url(../Assets/Image/NewService/DataEngg/DataContents5.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    min-width: 180px !important;
+    margin-top: 0px;
+  }
+
+  #DES .DataContents .Item6 {
+    background-image: url(../Assets/Image/NewService/DataEngg/DataContents6.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #DES .DataContents h5 {
+    font-size: 14px;
+  }
+
+  #DES .Approach .DataEs h4 {
+    font-size: 20px;
+  }
+
+  #DES .Approach .ApproachColMain {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    flex-direction: row;
+  }
+
+  #DES .Approach .contant {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  #DES .Approach .contant img {
+    max-width: 60px;
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7px;
+  }
+
+  #DES .Approach .contant h6 {
+    color: rgba(0, 0, 0, 1);
+    font-family: DMSansBold;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  #DES .Approach .contant p {
+    color: rgba(95, 97, 104, 1);
+    font-size: 10px;
+    font-family: DMSansRegular;
+    font-weight: 400;
+    text-align: center;
+    line-height: 15px;
+  }
+
+  #DES .Approach .ColElement {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #DES .CreatWorld {
+    background: #FFFFFF;
+    height: 20vh;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  #DES .MobileCreatWorld {
+    display: none;
+  }
+
+  #DES .CreatWorld .HeadingDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100% !important;
+    gap: 20px;
+  }
+
+  #DES .CreatWorld .HeadingDiv h4 {
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  #DES .CreatWorld .HeadingDiv p {
+    color: #6473A0;
+    font-size: 13px;
+    font-family: DMSansRegular;
+    text-align: center;
+  }
+
+  #DES .CardItem {
+    height: auto;
+  }
+
+  #DES .CardItem h3 {
+    font-size: 22px;
+  }
+
+  #DES .CardItem .DataItems {
+    width: 350px;
+    height: 200px;
+  }
+
+  #DES .CardItem .DataItems img {
+    max-width: 50px;
+  }
+
+  #DES .CardItem .DataItems h4 {
+    font-size: 22px;
+  }
+
+  #DES .CardItem .DataItems p {
+    font-size: 15px;
+  }
+
+  #DES .TechEdge {
+    display: none !important;
+  }
+
+  #DES .MobileTechEdge {
+    display: block;
+    margin-top: 10px;
+  }
+
+  #DES .MobileTechEdge .HeadSpan {
+    text-align: center;
+    font-size: 22px;
+    font-family: DMSansBold;
+  }
+
+  #DES .DataDevelopMvp {
+    display: none !important;
+  }
+
+  #DES .Slidersec {
+    margin: 0px 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  #DES .Slidersec .HeadDiv {
+    width: 200px !important;
+    transition: transform 150ms ease-in-out;
+  }
+  #DES .Slidersec .slick-list {
+    height: 200px !important;
+  }
+  #DES .Slidersec .slick-track {
+    height: 200px !important;
+  }
+
+  #DES .Slidersec .slick-slider .slick-track .slick-slide {
+    width: 230px !important;
+  }
+
+  #DES .Slidersec .HeadDiv:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transform: scale(1.02);
+  }
+
+  #DES .Slidersec .ContentDiv h4 {
+    font-family: DMSansRegular;
+    color: rgba(22, 28, 45, 1);
+    font-size: 12px;
+  }
+
+  #DES .Slidersec .ContentDiv img {
+    max-width: 12px;
+  }
+
+  #DES .Slidersec .Heading h4 {
+    color: rgba(22, 28, 45, 1);
+    font-family: DMSansBold;
+    font-size: clamp(1.25rem, 0.9375rem + 1.6667vw, 1.5625rem);
+  }
+
+  #DES .Slidersec .slick-slider .slick-next {
+    display: none !important;
+  }
+
+  #DES .Slidersec .slick-slider .slick-prev {
+    display: none !important;
+  }
+
+
+  #DES .NewContactForm {
+    display: none !important;
+  }
+
+  #DES #NewFaq {
+    display: none !important;
+  }
+
+  #DES #NewBlogPage {
+    display: none !important;
+  }
+
+  #DES #NewContactForm {
+    display: none !important;
+  }
+
+  #DES .MobileDataDevelop {
+    display: block !important;
+    margin: 40px 0px;
+  }
+
+  #DES .MobileDataDevelop .headcont {
+    text-align: center;
+    font-family: DMSansBold;
+    font-size: 22px;
+  }
+
+  #DES .MobileDataDevelop h4 {
+    font-size: 15px;
+  }
+
+  #DES .MobileDataDevelop .MobileDataDevelopSerives .accordion-item {
+
+    margin-top: 8px !important;
+  }
+
+  #DES .MobileDataDevelop .MobileDataDevelopSerives .accordion-button {
+    background-color: #F5F5F8 !important;
+    color: #141125 !important;
+    font-family: DMSansBold !important;
+    border: none !important;
+    --bs-accordion-border-color: transparent !important;
+  }
+
+  #DES .MobileDataDevelop .MobileDataDevelopSerives .accordion-button::after {
+    background-color: #5138EE;
+    border-radius: 50%;
+    background-image: url('../Assets/Image/NewHome/ArrowHomeDown.png') !important;
+    background-position: center !important;
+    background-size: auto !important;
+  }
+
+  #DES .MobileDataDevelop .MobileDataDevelopSerives .accordion-button:not(.collapsed)::after {
+    background-color: #141125 !important;
+    border-radius: 50%;
+    background-image: url('../Assets/Image/NewHome/ArrowHomeDown.png') !important;
+    background-position: center !important;
+    background-size: auto !important;
+  }
+
+  #DES .MobileDataDevelop .MobileDataDevelopSerives .accordion-item {
+    border-radius: 10px;
+    border: none !important;
+  }
+
+  #DES .MobileDataDevelop .MobileDataDevelopSerives .accordion-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+
+  #DES .MobileDataDevelop .MobileDataDevelopSerives .accordion-body p {
+    font-family: DMSansRegular;
+    font-size: 14px;
+  }
+
+  #DES .MobileDataDevelop .MobileDataDevelopSerives .accordion-button.collapsed::after {
+    background-color: #5138EE !important;
+  }
+
+  #DES .MobileDataDevelop .MobileDataDevelopSerives .headcont {
+    font-family: DMSansBold;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #DES .MobileDataDevelop .MobileDataDevelopSerives img {
+    width: 80%;
+
+  }
+
+}

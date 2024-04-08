@@ -1,0 +1,12 @@
+#policy .policycont{
+    margin-top:100px;
+    padding: 50px 0px;
+}
+#policy .textheader{
+    margin: 15px 0px !important;
+    font-family: circularBold;
+}
+#policy .textParagraph{
+    margin-bottom: 10px !important;
+    font-family: nunitoRegular;
+}

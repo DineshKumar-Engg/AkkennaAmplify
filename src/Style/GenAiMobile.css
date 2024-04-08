@@ -1,0 +1,1156 @@
+
+@media only screen and (max-width: 400px) and (min-width: 300px){
+    #GenAi .MobileBlogListImg img {
+        height: 120px !important;
+    }
+}
+
+@media only screen and (max-width:800px) and (min-width:300px) {
+    #GenAi .GenAiBanner{
+        display: none;
+    }
+    #GenAi .genAiMobBanner{
+        display: block;
+    }
+    #GenAi .genAiMobBanner .bannerbg{
+        background-image: url("../Assets/Image/NewService/GenAI/Mobilebgbanner.svg")!important;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: auto;
+        margin-top: 25px;
+        padding:0px 0px !important;
+    }
+    #GenAi .genAiMobBanner .headtext{
+        font-family: DMSansBold;
+        font-size: 20px;
+    }
+    #GenAi .genAiMobBanner .paratext{
+        font-family: DMSansRegular;
+        font-size: 12px;
+    }
+    #GenAi .genAiMobBanner .GenAIImg{
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #GenAi .genAiMobBanner .buttondiv{
+        position: relative;
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+        
+      }
+      #GenAi .genAiMobBanner .GenAIImg{ 
+        position:absolute;
+        display: flex;
+        justify-content: end;
+        padding-right: 0px!important;
+      }
+      #GenAi .genAiMobBanner .bannerButtons {
+        min-height: 185px;
+        
+       
+      }
+      #GenAi .genAiMobBanner .exploreButton {
+       height: 30px; 
+       width: 170px; 
+       font-size: 12px; 
+       border-radius: 8px;
+       margin-top: 20px;
+       margin-bottom: 1px ;
+       font-family: DMSansMedium;
+       background-color: #702DF6;
+       color: white;
+
+}
+     #GenAi .genAiMobBanner .watchVideoButton {
+        height: 30px; 
+        width: 170px; 
+        font-size: 12px; 
+        border-radius: 8px;
+        margin-top: 4px;
+        margin-bottom: 1px ;
+        font-family: DMSansMedium;
+        color:#450695 ;
+  }
+  #GenAi .genAiMobBanner .playicon{
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  }
+}
+/* section 2 mobile view */
+@media only screen and (max-width:800px) and (min-width:300px) {
+#GenAi .desktopsec2{
+    display: none;
+}
+#GenAi .mobilesec2{
+    display: block;
+}
+#GenAi .mobilesec2 {
+    background-image: url("../Assets/Image/NewService/GenAI/MobileSec2bg.svg")!important;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: auto;
+}
+
+#GenAi .mobilesec2 .homeServiceRow .slick-slider{
+    padding-right: 0px!important;
+    padding-left: 0px !important;
+}
+/* #GenAi .mobilesec2 {
+        background-color: #4820cb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+} */
+
+#GenAi .mobilesec2 .homeServiceRow{
+        flex-wrap: nowrap;
+        /* overflow-x: scroll !important;
+        overflow-y: hidden; */
+        scroll-snap-type: x mandatory !important;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: -30px;
+        background-color: none!important;
+        
+}
+#GenAi .mobilesec2 .homeServiceRow>.col {
+    margin: 10px 0px;
+    min-width: 200px;
+    min-height: 120px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#GenAi .mobilesec2 .homeServiceRow::-webkit-scrollbar {
+    width: 0px;
+}
+
+#GenAi .mobilesec2 .headRow{
+    margin: auto;
+    height: 80px;
+    align-items: center;
+}
+#GenAi .mobilesec2 .heading {
+    color: #292930;
+    font-family: DMSansBold;
+    font-size: 22px;        
+}
+
+/* #GenAi .mobilesec2 .homeserviceCont h3 {
+    
+    min-width: 150px;
+    
+    padding-left: 0px !important;
+    margin: 0px 0px;
+} */
+#GenAi .mobilesec2 .homeServiceRow .homeServiceColMain {
+    background-color: #FFFFFF;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+    margin: 0px 10px;
+    width: 170px;
+    height: 90px;
+    flex-direction: column;
+    gap: 10px;
+}
+#GenAi .mobilesec2 .marq{
+    @keyframes  marquee {
+        0%{
+            transform: translateX(0%);
+        }
+        100%{
+            transform: translateX(100%);
+        }
+}
+}
+
+#GenAi .mobilesec2 .homeServiceRow .homeServiceColMain img {
+    max-width: 35px;
+    max-height: 35px;
+    margin-right: 15px;
+}
+
+#GenAi .mobilesec2 .homeServiceRow .homeServiceColMain:hover {
+    border-bottom: 2px solid #7F40FF;
+}
+#GenAi .mobilesec2 .homeServiceRow .homeServiceColMain {
+    min-width: 180px;
+    min-height: 85px 
+}
+#GenAi .mobilesec2 .homeServiceRow .homeServiceColMain>.col:first-child {
+    display: flex;
+    align-items: center;
+}
+
+#GenAi .mobilesec2 .homeServiceRow .homeServiceColMainMore {
+    min-width: 160px;
+    min-height: 120px;
+    /* flex-direction: column; */
+    gap: 10px;
+    padding-left: 0px !important;
+    margin: 0px 0px;
+}
+
+#GenAi .mobilesec2 .ServiceRow .ServiceColMainMore img {
+    max-width: 35px;
+    max-height: 35px;
+}
+#GenAi .mobilesec2 .homeServiceRow .slick-list{ 
+        height: 130px;
+}
+#GenAi .mobilesec2  .slick-prev{
+    display: none!important;
+}
+#GenAi .mobilesec2 .slick-next{
+    display: none!important;
+}
+#GenAi .mobilesec2 .slick-track{
+    display: flex;
+    gap: 90px;
+}
+
+/* genAi sec3 mobile view css */
+#GenAi .Sec3Desktop{
+    display: none;
+}
+#GenAi .Sec3Mobile{
+    display: block;
+    margin-top: 50px;
+}
+#GenAi .Sec3Mobile .homeProduct .accordion-item{
+    
+    margin-top: 8px !important;
+}
+#GenAi .Sec3Mobile .homeProduct .accordion-button {
+    background-color: #F5F5F8 !important;
+    color: #141125 !important;
+    font-family: DMSansBold !important;
+    border: none !important;
+    --bs-accordion-border-color: transparent !important;
+}
+#GenAi .Sec3Mobile .homeProduct .accordion-button::after {
+    background-color: #5138EE ;
+    border-radius: 50%;
+    background-image: url('../Assets/Image/NewService/GenAI/ArrowHomeDown.png') !important;
+    background-position: center !important;
+    background-size: auto !important;
+}
+#GenAi .homeProduct .accordion-button:not(.collapsed)::after {
+    background-color: #141125 !important;
+    border-radius: 50%;
+    background-image: url('../Assets/Image/NewService/GenAI/ArrowHomeDown.png') !important;
+    background-position: center !important;
+    background-size: auto !important;
+}
+#GenAi .Sec3Mobile .homeProduct .accordion-item{
+    border-radius: 10px;
+    border: none!important;
+}
+#GenAi .Sec3Mobile .accordion-button.collapsed::after{
+    background-color: #5138EE!important; 
+}
+#GenAi .Sec3Mobile .topsec{
+    margin-top: 15px;
+}
+
+
+#GenAi .Sec3Mobile .headcont{
+    font-family: DMSansBold;
+    font-size: 20px;
+    text-align: center;
+}
+#GenAi .Sec3Mobile .active {
+    border-bottom: 2px solid #7F40FF;
+}
+#GenAi .MobileCTA{
+    display: block;
+}
+#GenAi .DesktopCTA{
+    display: none;
+}
+#GenAi .MobileCTA .homeCallContain{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+   
+        
+    }
+    #GenAi .MobileCTA .homeCallAction{
+        background-image: url('../Assets/Image/NewService/GenAI/MobileCTAbg.svg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: auto;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    
+    }
+    #GenAi .MobileCTA .homeCallAction .row h4 {
+        text-align: center;
+        color: #FFFFFF!important;
+        font-size: 15px;
+    }
+    #GenAi .MobileCTA .homeCallAction .row p {
+        color: #FFFFFF;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 8px !important;
+    }
+    #GenAi .MobileCTA .homeCallContainMobile>div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 8px;
+        margin-bottom: -30px;
+    }
+    #GenAi .MobileCTA .homeCallAction button {
+        color: #FFFFFF;
+        padding: 12px 15px;
+        font-size: 12px;
+        border-radius: 10px;
+        background: rgb(112, 45, 246);
+        background: linear-gradient(90deg, rgba(112, 45, 246, 1) 0%, rgba(79, 14, 210, 1) 100%);
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    }
+
+    /* key services */
+    #GenAi .DesktopKeyService{
+        display: none;
+    }
+    #GenAi .MobileKeyService{
+        display: block;
+    }
+    #GenAi .MobileKeyService .homeServiceMobile {
+        background-color: #F5F2FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+    }
+    #GenAi .MobileKeyService .homeServiceRow {
+        flex-wrap: nowrap;
+        overflow-x: scroll !important;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory !important;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+    #GenAi .MobileKeyService .homeServiceRow>.col {
+        margin: 10px 0px;
+        min-width: 150px;
+        min-height: 120px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    #GenAi .MobileKeyService .homeServiceRow::-webkit-scrollbar {
+        width: 0px;
+    }
+    #GenAi .MobileKeyService .homeserviceCont h3 {
+        color: #292930;
+        font-family: DMSansBold;
+    }
+    #GenAi .MobileKeyService .homeServiceRow .homeServiceColMain {
+        min-width: 150px;
+        min-height: 120px;
+        padding-left: 0px !important;
+        margin: 0px 0px;
+    }
+    #GenAi .MobileKeyService .homeServiceRow .homeServiceColMain img {
+        max-width: 35px;
+        max-height: 35px;
+    }
+    #GenAi .MobileKeyService .homeServiceRow .homeServiceColMain:hover {
+        border-bottom: 2px solid #7F40FF;
+    }
+    #GenAi .MobileKeyService .homeServiceRow .homeServiceColMainMore {
+        min-width: 150px;
+        min-height: 120px;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 0px !important;
+        margin: 0px 0px;
+    }
+    #GenAi .MobileKeyService .homeServiceRow .homeServiceColMainMore img {
+        max-width: 35px;
+        max-height: 35px;
+    }
+    #GenAi .MobileKeyService .headtext{
+        text-align: center;
+    }
+    /* #GenAi .DesktopDisplaycard{
+        display: none;
+    } */
+
+
+    #GenAi .homeDisplayCard {
+        min-height: auto;
+        max-height: auto;
+        padding: 20px 5px;
+    }
+    
+    #GenAi .homeDisplayCard .homedisplaycardfirst h3 {
+        font-family: DMSansBold;
+        color: #FFFFFF;
+    }
+    
+    #GenAi .homeDisplayCard .homedisplaycardfirst small {
+        font-family: DMSansRegular;
+        color: #A0B8FF;
+        font-size: 12px;
+    }
+    
+    #GenAi .homeDisplayCard .homedisplaycardfirst button {
+        display: none;
+    }
+    
+    #GenAi .homedisplaycardSecond {
+        display: none !important;
+    }
+    
+    #GenAi .homedisplaycardSecondMobile {
+        display: block !important;
+    }
+    
+    #GenAi .homeDisplayCard .homedisplaycardSecondMobile {
+        background: rgba(255, 255, 255, 0.05);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: inherit;
+        -webkit-backdrop-filter: blur(0px) !important;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        display: flex;
+        gap: 10px;
+        padding: 10px 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    #GenAi .homeDisplayCard .homedisplaycardSecondMobile .homedisplayMobileBookmark {
+        width: 30px;
+        height: 30px;
+    }
+    
+    #GenAi .homeDisplayCard .homedisplaySecondMobileCol {
+        display: flex;
+        gap: 10px;
+    }
+    
+    #GenAi .homeDisplayCard .homedisplaycardSecondMobile h5 {
+        font-family: DMSansMedium;
+        color: #FFFFFF;
+        font-size: 15px;
+    }
+    
+    #GenAi .homedisplaycardSecondMobile p {
+        font-family: DMSansRegular;
+        color: #A0B8FF;
+        font-size: 12px;
+        padding-top: 10px !important;
+        text-align: left;
+    }
+    
+    #GenAi .homedisplaySecondMobileImg {
+        display: flex;
+        justify-content: end;
+        padding-top: 10px;
+    }
+    
+    #GenAi .homedisplaySecondMobileImg img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    #GenAi .homeTimeRow {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        padding-top: 15px;
+        height: 0px;
+        margin-bottom: -20px;
+    }
+    
+    #GenAi .homeTimeRow h5 {
+        display: none;
+    }
+    
+    #GenAi .homeTimeline {
+        display: flex;
+        background-color: #FFFFFF;
+        opacity: 0.2;
+        justify-content: space-around;
+        height: 1px;
+    }
+    
+    #GenAi .homeTimelineText {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: -7px;
+    }
+    
+    #GenAi .homeTimelineText h5 {
+        font-size: 16px;
+        color: #FFFFFF;
+        opacity: 1;
+        font-family: DMSansBold;
+    }
+    
+    #GenAi .round {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    
+    #GenAi .round>div:nth-child(2) {
+        padding-top: 25px;
+    }
+    
+    #GenAi .Radiocontainer {
+        display: block;
+        position: relative;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    
+    /* Hide the browser's default radio button */
+    #GenAi .Radiocontainer input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+    
+    /* Create a custom radio button */
+    #GenAi .checkmark {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        z-index: 9;
+    }
+    
+    #GenAi .checkShadow {
+        position: absolute;
+        top: -5.5px;
+        right: -5.5px;
+        height: 23px;
+        width: 23px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+    
+    #GenAi .CheckRed {
+        background-color: #FD346E;
+    }
+    
+    #GenAi .CheckBlue {
+        background-color: #1EE2CF;
+    }
+    
+    #GenAi .CheckYellow {
+        background-color: #FCDC02;
+    }
+    
+    #GenAi .CheckOrange {
+        background-color: #FF7F63;
+    }
+    
+    #GenAi .Radiocontainer input:checked~.checkShadow {
+        background: #FFFFFF;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid #FFFFFF;
+    }
+    
+    #GenAi .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    #GenAi .DesktopPortfolio{
+        display: none;
+    }
+/* portfolio */
+    #GenAi .homeAboutMobile {
+        display: block !important;
+        background-color: #EEEAFF;
+        margin-top: -100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    } 
+    #GenAi .homeAboutCardMobileRow {
+        display: flex;
+        align-items: center;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        padding: 8px 10px;
+        min-height: 80px;
+    }
+    #GenAi .homeAboutMobile .homeAboutCardMobileRow h6 {
+        font-size: 24px;
+        font-weight: 600;
+        font-family: DMSansBold;
+    }
+
+    #GenAi .homeAboutMobile .homeAboutCardMobileRow p {
+        font-family: DMSansRegular;
+        font-size: 12px;
+        text-align: left;
+        color: #787878;
+    }
+
+    #GenAi .homeAboutMobile .homeAboutCardMobileRow .homeAboutMobileRowImg {
+        border-right: 1px solid #F0EDFF;
+        padding-right: 8px;
+    }
+
+    #GenAi .homeAboutMobile .homeAboutCardMobileRow .homeAboutMobileRowImg img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #GenAi .DesktopCallToAction{
+        display: none;
+    }
+    #GenAi .DesktopIconServices{
+        display: none;
+    }
+    #GenAi .homeAboutMobile {
+        max-height: auto !important;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    #GenAi .homeAboutMobile .offcanvas-header {
+        display: flex !important;
+        justify-content: center !important;
+        margin-top: -25px;
+    }
+
+    #GenAi .homeAboutMobile .offcanvas-header button {
+        background-color: #FFFFFF !important;
+        border-radius: 50% !important;
+        opacity: 1 !important;
+    }
+
+    #GenAi .homeAboutMobile .homeAboutImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #GenAi .homeAboutMobile .homeAboutImg img {
+        width: 60% !important;
+    }
+
+    #GenAi .homeAboutMobile .homeAboutCanvaText small {
+        color: #3F4765;
+        font-family: DMSansMedium;
+        margin-bottom: 4px;
+    }
+
+    #GenAi .homeAboutMobile .homeAboutCanvaText h5 {
+        color: #3F4765;
+        font-family: DMSansBold;
+        font-size: 15px;
+        margin-top: 4px !important;
+    }
+
+    #GenAi .homeAboutMobile .homeAboutCanvaText p {
+        color: #5F6168;
+        font-family: DMSansRegular;
+        font-size: 12px;
+        text-align: start;
+        margin-top: 4px !important;
+    }
+
+    #GenAi .homeAboutMobile .homeAboutCanvaText .homeAboutListMain {
+        display: flex;
+        gap: 15px;
+        margin-top: 10px !important;
+    }
+
+    #GenAi .homeAboutMobile .homeAboutCanvaText .homeAboutList {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #GenAi .homeAboutMobile .homeAboutCanvaText .homeAboutList h6 {
+        color: #01103D;
+        /* font-weight: 600; */
+        font-family: DMSansMedium;
+    }
+
+    #GenAi .homeAboutMobile .homeAboutCanvaText .homeAboutList img {
+        margin-right: 10px;
+    }
+
+    #GenAi .homeAboutMobile .homeAboutCanvaText button {
+        margin-top: 15px !important;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        padding: 12px 35px;
+        background-color: #7F40FF;
+        color: #FFFFFF;
+        font-family: DMSansMedium;
+    }
+
+    /* form */
+
+    #GenAi .homeForm {
+        display: none !important;
+    }
+
+    #GenAi .homeMobileFormDisplay {
+        display: block !important;
+    }
+
+    #GenAi .homeMobileForm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0px;
+        background-color: #F7F8FD;
+    }
+
+    #GenAi .homeMobileFormRow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+    }
+
+    #GenAi .homeMobileFormRow div:first-child {
+        background: rgb(86, 9, 182);
+        background: linear-gradient(90deg, rgba(86, 9, 182, 1) 0%, rgba(40, 0, 90, 1) 100%);
+        border-radius: 10px 0px 0px 10px;
+        padding: 15px 20px;
+    }
+
+    #GenAi .homeMobileFormRow div:last-child {
+        background: rgb(158, 9, 182);
+        background: linear-gradient(125deg, rgba(158, 9, 182, 1) 0%, rgba(78, 0, 90, 1) 100%);
+        height: 100%;
+        border-radius: 0px 10px 10px 0px;
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    #GenAi .homeMobileFormRow div:first-child h3 {
+        color: #FFFFFF;
+        font-size: 20px;
+        font-family: DMSansBold;
+    }
+
+    #GenAi .homeMobileFormRow div:first-child p {
+        color: #D1B5FF;
+        font-size: 10px;
+        text-align: left;
+    }
+
+    #GenAi .homeFormCanva #NewContactForm {
+        margin-top: 0px !important;
+    }
+
+    #GenAi .homeFormCanva #NewContactForm .homeForm {
+        background: transparent !important;
+    }
+
+    #GenAi .homeFormCanva {
+        max-height: auto !important;
+        background: rgb(85, 9, 180) !important;
+        background: linear-gradient(180deg, rgb(64 3 141) 0%, rgb(59 2 130) 100%) !important;
+        border: none !important;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    #GenAi .homeFormCanva .offcanvas-header {
+        display: flex !important;
+        justify-content: center !important;
+        margin-top: -10px;
+        padding: 0px 0px !important;
+    }
+
+    #GenAi .homeFormCanva .offcanvas-body {
+        padding: 0px !important;
+    }
+
+    #GenAi .homeFormCanva .offcanvas-body p {
+        text-align: center !important;
+    }
+
+    #GenAi .homeFormCanva .offcanvas-header button {
+        background-color: #FFFFFF !important;
+        border-radius: 50% !important;
+        opacity: 1 !important;
+        z-index: 99;
+    }
+
+    /* form */
+
+    /* Mobile Blog */
+    #GenAi .homeBlog {
+        display: none;
+    }
+
+    #GenAi .MobileBlogMain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EDEFFA;
+        height: 250px;
+        padding: 20px 20px;
+        margin-bottom: 30px;
+    }
+
+    #GenAi .MobileBlogMain h3 {
+        color: #000;
+        font-family: DMSansBold;
+        text-align: center;
+    }
+
+    #GenAi .MobileBlogMainSlide {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        gap: 20px;
+    }
+
+    #GenAi .MobileBlogList {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 10px 0px;
+    }
+
+    #GenAi .MobileBlogMainSlide::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    #GenAi .MobileBlogList div:nth-child(2) {
+        background-color: #FFFFFF;
+        padding: 20px 10px;
+        text-align: left;
+    }
+
+    #GenAi .MobileBlogList div:nth-child(3) {
+        background-color: #FFFFFF;
+        padding: 20px 10px;
+        border-radius: 0px 20px 20px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #GenAi .MobileBlogListImg {
+        border-radius: 10px 0px 0px 10px;
+        width: 85px !important;
+        height: 92px !important;
+    }
+
+    #GenAi .MobileBlogListImg img {
+        border-radius: 10px 0px 0px 10px;
+        width: 85px;
+        height: 106px;
+        object-fit: cover;
+    }
+
+    #GenAi .MobileBlogMainSlide h5 {
+        color: #6A0EFF;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    #GenAi .MobileBlogMainSlide p {
+        color: #8A879F;
+        font-size: 10px;
+        text-align: left;
+    }
+
+    /* Mobile Blog */
+
+    #GenAi .DesktopFaq{
+        display: none;
+    }
+
+    #GenAi .homeFaqMobile {
+        display: block !important;
+    }
+
+    #GenAi .homeFaqMobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F7F8FD;
+        padding: 20px 10px;
+    }
+
+    #GenAi .homeFaqMobileMain {
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #GenAi .homeFaqMobileMain h3 {
+        font-size: 20px;
+        font-family: DMSansBold;
+
+    }
+
+    #GenAi .homeFaqCanva {
+        display: none;
+        min-height: 500px !important;
+        max-height: auto !important;
+        border: none !important;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    #GenAi .homeFaqCanva .homeFaqCanvaText h5 {
+        color: #292930;
+        font-family: DMSansBold;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #GenAi .homeFaqCanva .offcanvas-header {
+        display: flex !important;
+        justify-content: center !important;
+        margin-top: -20px;
+        /* padding: 0px 0px !important; */
+    }
+
+    #GenAi .homeFaqCanva .offcanvas-header button {
+        background-color: #FFFFFF !important;
+        border-radius: 50% !important;
+        opacity: 1 !important;
+        z-index: 99;
+    }
+
+    #GenAi .homeFaqCanva .offcanvas-body {
+        padding: 0px !important;
+    }
+
+    #GenAi .homeFaqCanva .homeFaqCanvaRow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+    }
+
+    #GenAi .homeFaqCanva .homeFaqCanvaText .homeFaqCanvaRow .accordion-item {
+        --bs-accordion-border-color: transparent !important;
+        margin-top: 10px !important;
+        padding: 2px 0px !important;
+    }
+
+    #GenAi .homeFaqCanva .homeFaqCanvaText .homeFaqCanvaRow .accordion-button:focus {
+        border-color: none !important;
+        box-shadow: none !important;
+    }
+
+    #GenAi .homeFaqCanva .homeFaqCanvaText .homeFaqCanvaRow .accordion-button {
+        color: #141125 !important;
+        font-family: DMSansMedium !important;
+        border-top: 1px solid #B9B9B9 !important;
+        border-right: 1px solid #B9B9B9 !important;
+        border-left: 1px solid #B9B9B9 !important;
+        border-bottom: 1px solid #B9B9B9 !important;
+        --bs-accordion-border-color: transparent !important;
+        border-radius: 6px 6px 0px 0px !important;
+        font-size: 12px;
+    }
+
+    #GenAi .homeFaqCanva .homeFaqCanvaText .homeFaqCanvaRow .accordion-body {
+        color: #595B62 !important;
+        background-color: #FFFFFF !important;
+        border-bottom: 1px solid #B9B9B9 !important;
+        border-right: 1px solid #B9B9B9 !important;
+        border-left: 1px solid #B9B9B9 !important;
+        font-size: 12px !important;
+        font-family: DMSansMedium !important;
+    }
+
+    #GenAi .homeFaqCanva .homeFaqCanvaText .homeFaqCanvaRow .accordion-button:not(.collapsed) {
+        background-color: #FFFFFF !important;
+        border-bottom: none !important;
+    }
+
+    #GenAi .homeFaqCanva .homeFaqCanvaText .homeFaqCanvaRow .accordion-button::after {
+        background-image: url('../Assets/Image/NewService/GenAI/ArrowFaq.svg') !important;
+        background-position: center !important;
+        background-size: auto !important;
+        width: 15px !important;
+        height: 25px !important;
+    }
+
+    #GenAi .homeFaqCanva .homeFaqCanvaText .homeFaqCanvaRow .accordion-button:not(.collapsed)::after {
+        border-radius: 50%;
+        background-image: url('../Assets/Image/NewService/GenAI/ArrowFaq.svg') !important;
+        background-position: center !important;
+        background-size: auto !important;
+    }
+
+    /* MobileFaq */
+
+    /* industry we serve */
+    #GenAi .sass-border{
+        border-radius:30px  0px 30px 0px;
+        border: 1px solid rgba(217, 217, 217, 1);
+        margin: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 40px;
+        max-width: 150px!important;
+        height: 100px!important;
+      }
+
+      #GenAi .sass-border img {
+        max-width: 35px !important;
+    }
+    #GenAi .sass-border h6 {
+        font-size: 14px;
+    }
+    /* section icon and services Mobile view */
+    #GenAi .mobileIconSerices{
+        display: block;
+    }
+
+    #GenAi .mobileIconSerices .headcont{
+        text-align: center;
+        font-family: DMSansBold;
+        font-size: 22px;
+    }
+    #GenAi .mobileIconSerices h4{
+        font-size: 15px;
+    }
+
+    #GenAi .mobileIconSerices .mobileSerives .accordion-item{
+    
+        margin-top: 8px !important;
+    }
+    #GenAi .mobileIconSerices .mobileSerives .accordion-button {
+        background-color: #F5F5F8 !important;
+        color: #141125 !important;
+        font-family: DMSansBold !important;
+        border: none !important;
+        --bs-accordion-border-color: transparent !important;
+    }
+    #GenAi .mobileIconSerices .mobileSerives .accordion-button::after {
+        background-color: #5138EE ;
+        border-radius: 50%;
+        background-image: url('../Assets/Image/NewService/GenAI/ArrowHomeDown.png') !important;
+        background-position: center !important;
+        background-size: auto !important;
+    }
+    #GenAi .mobileIconSerices .mobileSerives .accordion-button:not(.collapsed)::after {
+        background-color: #141125 !important;
+        border-radius: 50%;
+        background-image: url('../Assets/Image/NewService/GenAI/ArrowHomeDown.png') !important;
+        background-position: center !important;
+        background-size: auto !important;
+    }
+    #GenAi .mobileIconSerices .mobileSerives .accordion-item{
+        border-radius: 10px;
+        border: none!important;
+    }
+    #GenAi .mobileIconSerices .mobileSerives .accordion-body{
+        display: flex;
+        align-items: center;
+        gap: 80px;
+    }
+    #GenAi .mobileIconSerices .mobileSerives .accordion-button.collapsed::after{
+        background-color: #5138EE!important; 
+    }
+    #GenAi .mobileIconSerices .mobileSerives .headcont{
+        font-family: DMSansBold;
+        font-size: 20px;
+        text-align: center;
+    }
+    #GenAi .mobileIconSerices .mobileSerives img{
+        width: 35px;
+        height: 35px;
+    }
+
+    #GenAi .homeProdScrollMobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 10px;
+        background-color: #F7F8FD;
+    }
+    #GenAi .homeProdMobileHead {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        padding: 10px 10px;
+        text-align: left;
+    }
+    #GenAi .homeProdMobileHead p {
+        text-align: left;
+        color: #787878;
+        font-family: DMSansRegular;
+    }
+
+    #GenAi .homeProdMobileHead h4 {
+        font-family: DMSansBold;
+        font-size: 18px;
+    }
+
+    #GenAi .homeProdMobileHead img {
+        padding: 0px 10px;
+        display: none;
+    }
+
+}
+
+
+
+/* @media only screen and (max-width:3700px) and (min-width:1700px) {
+    #GenAi .container{
+        max-width: 1600px!important;
+    }
+} */

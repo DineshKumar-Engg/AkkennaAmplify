@@ -1,0 +1,129 @@
+@font-face {
+    font-family: DMSansBold;
+    src: url('../Assets/font/DMSans-Bold.ttf')
+}
+
+@font-face {
+    font-family: DMSansMedium;
+    src: url('../Assets/font/DMSans-Medium.ttf')
+}
+
+@font-face {
+    font-family: DMSansRegular;
+    src: url('../Assets/font/DMSans-Regular.ttf')
+}
+
+
+#NewContactForm {
+    font-family: DMSansRegular;
+    margin-top: 75px;
+}
+
+.DMSansBold {
+    font-family: DMSansBold;
+}
+
+.DMSansMedium {
+    font-family: DMSansMedium;
+}
+
+.DMSansRegular {
+    font-family: DMSansRegular;
+}
+
+
+#NewContactForm .homeForm .marginTop {
+    margin-top: 5px;
+    padding: 20px 0px;
+}
+
+#NewContactForm{
+    background: url('../Assets/Image/NewHome/formBanner.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0px;
+}
+
+#NewContactForm .homeForm .formRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#NewContactForm .homeForm .contact-form input,
+#NewContactForm .homeForm .contact-form select,
+#NewContactForm .homeForm .contact-form textarea {
+    width: 100%;
+    height: 40px;
+    /* background-color: transparent; */
+    outline: none;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#NewContactForm .homeForm .contact-form input::placeholder,
+#NewContactForm .homeForm .contact-form textarea::placeholder {
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+#NewContactForm .homeForm .FormHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#NewContactForm .homeForm .FormHead .frmTitle {
+    color: #ffffff;
+    font-family: DMSansBold;
+}
+
+#NewContactForm .homeForm .FormHead .frmDesc {
+    color: #C9C9C9;
+    font-family: DMSansMedium;
+    text-align: text-center;
+}
+
+#NewContactForm .homeForm .contact-form textarea {
+    height: 60px;
+}
+
+#NewContactForm .homeForm .contact-form select option {
+    color: #000;
+}
+
+#NewContactForm .homeForm .submit-btn {
+    display: flex;
+    justify-content: center;
+}
+
+#NewContactForm .homeForm .submit-btn button {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 12px 35px;
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#NewContactForm .homeForm .submit-btn button:hover {
+    background: linear-gradient(to right, #B100FF, #5800FF);
+    color: var(--white)
+}
+
+/* Home Form */

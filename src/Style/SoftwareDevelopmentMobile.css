@@ -1,0 +1,538 @@
+@media only screen and (max-width:800px) and (min-width:300px) {
+    #Soft .DesktopBanner{
+        display: none;
+    }
+    #Soft .MobileBanner{
+        display: block;
+    }
+    #Soft .MobileBanner{
+        background-image: url("../Assets/Image/NewService/Software/mobilebannersec2.svg")!important;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: auto;
+        margin-top: 25px;
+        min-height: 35vh;
+    }
+    #Soft .MobileBanner .bannercontent{
+        color: rgb(245, 237, 237);
+        padding-top: 50px;
+    } 
+    #Soft .MobileBanner .bannercontent h2{
+        font-family:  DMSansBold;
+        font-size: 22px;
+    }
+    #Soft .MobileBanner .headcontent{
+        margin-bottom: 10px 
+    }
+    #Soft .MobileBanner .bannercontent p{
+        font-family: DMSansMedium;
+        font-size: 12px;
+    }
+    #Soft .MobileBanner .bannerbtn{
+        display: flex;
+        align-items: center;
+        margin-top: 10px; 
+    }
+    #Soft .MobileBanner button{
+        width: 165px;
+        height: 35px;
+        border-radius: 10px;
+        font-family: DMSansMedium;
+        font-size: 14px;
+        border: none;
+    }
+    #Soft .DesktopSec2 {
+        display: none;
+    }
+    #Soft .MobileSec2{
+        display: block;
+    }
+    
+    #Soft .homeAboutMobile {
+        display: block !important;
+        padding-bottom: 8px;
+        margin-top: -20px;
+    }
+
+    #Soft .homeCardMobileDisplayNone {
+        display: block;
+        height: 140px;
+        margin-top: -60px;
+    }
+
+    #Soft .homeCardMobileRow {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        margin-top: 20px;
+        height: 140px;
+    }
+
+    #Soft .homeAboutMobileRow::-webkit-scrollbar {
+        display: none;
+        scrollbar-width: none;
+    }
+
+    #Soft .homeAboutMobile .homeAboutCardMobileRow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        padding: 8px 10px;
+        gap: 6px;
+    }
+
+    #Soft .homeAboutMobile .homeAboutCardMobileRow h6 {
+        font-size: 14px;
+        font-weight: 600;
+        font-family: DMSansBold;
+    }
+
+    #Soft .homeAboutMobile .homeAboutCardMobileRow p {
+        font-family: DMSansRegular;
+        font-size: 12px;
+        text-align: left;
+        color: #787878;
+    }
+    #Soft .homeAboutMobile .homeAboutCardMobileRow .homeAboutMobileRowImg {
+        border-right: 1px solid #F0EDFF;
+        padding-right: 8px;
+    }
+
+    #Soft .homeAboutMobile .homeAboutCardMobileRow .homeAboutMobileRowImg img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #SoftAboutCanva {
+        min-height: 400px !important;
+        max-height: auto !important;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    #SoftAboutCanva .offcanvas-header {
+        display: flex !important;
+        justify-content: center !important;
+        margin-top: -25px;
+    }
+
+    #SoftAboutCanva .offcanvas-header button {
+        background-color: #FFFFFF !important;
+        border-radius: 50% !important;
+        opacity: 1 !important;
+    }
+
+    #SoftAboutCanva .homeAboutImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #SoftAboutCanva .homeAboutImg img {
+        width: 60% !important;
+    }
+
+    #SoftAboutCanva .homeAboutCanvaText small {
+        color: #3F4765;
+        font-family: DMSansMedium;
+        margin-bottom: 4px;
+    }
+
+    #SoftAboutCanva .homeAboutCanvaText h5 {
+        color: #3F4765;
+        font-family: DMSansBold;
+        font-size: 15px;
+        margin-top: 4px !important;
+    }
+
+    #SoftAboutCanva .homeAboutCanvaText p {
+        color: #5F6168;
+        font-family: DMSansRegular;
+        font-size: 12px;
+        text-align: start;
+        margin-top: 4px !important;
+    }
+
+    #SoftAboutCanva .homeAboutCanvaText .homeAboutListMain {
+        display: flex;
+        gap: 15px;
+        margin-top: 10px !important;
+    }
+
+    #SoftAboutCanva .homeAboutCanvaText .homeAboutList {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #SoftAboutCanva .homeAboutCanvaText .homeAboutList h6 {
+        color: #01103D;
+        /* font-weight: 600; */
+        font-family: DMSansMedium;
+    }
+
+    #SoftAboutCanva .homeAboutCanvaText .homeAboutList img {
+        margin-right: 10px;
+    }
+
+    #SoftAboutCanva .homeAboutCanvaText button {
+        margin-top: 15px !important;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        padding: 12px 35px;
+        background-color: #7F40FF;
+        color: #FFFFFF;
+        font-family: DMSansMedium;
+    }
+
+    #Soft .DesktopSec3{
+        display: none;
+    }
+    #Soft .MobileSec3{
+        display: block;
+    }
+    #Soft .MobileSec3 .homeServiceRow{
+        flex-wrap: nowrap;
+        overflow-x: scroll !important;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory !important;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: -30px
+    }
+    #Soft .MobileSec3 .homeServiceRow>.col {
+        margin: 10px 0px;
+        min-width: 260px;
+        min-height: 120px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    #Soft .MobileSec3 .homeServiceRow::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    #Soft .MobileSec3 .headRow{
+        margin: auto;
+        height: 80px;
+        align-items: center;
+    }
+    #Soft .MobileSec3 .heading {
+        color: #292930;
+        font-family: DMSansBold;
+        font-size: 22px;
+        text-align: center;        
+    }
+    #Soft .MobileSec3 .homeServiceRow .homeServiceColMain {
+        background-color: #FFFFFF;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 15px;
+        margin: 0px 10px;
+        width: 170px;
+        height: 90px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #Soft .MobileSec3 .homeServiceRow .homeServiceColMain img {
+        max-width: 35px;
+        max-height: 35px;
+        margin-right: 15px;
+    }
+    #Soft .MobileSec3 .homeServiceRow .homeServiceColMain:hover {
+        border-bottom: 2px solid #7F40FF;
+    }
+    #Soft .MobileSec3 .homeServiceRow .homeServiceColMain {
+        min-width: 230px;
+        min-height: 85px 
+    }
+    #Soft .MobileSec3 .homeServiceRow .homeServiceColMain>.col:first-child {
+        display: flex;
+        align-items: center;
+    }
+    #Soft .MobileSec3 .homeServiceRow .homeServiceColMainMore {
+        min-width: 160px;
+        min-height: 120px;
+        /* flex-direction: column; */
+        gap: 10px;
+        padding-left: 0px !important;
+        margin: 0px 0px;
+    }
+    
+    #Soft .MobileSec3 .ServiceRow .ServiceColMainMore img {
+        max-width: 35px;
+        max-height: 35px;
+    }
+
+    #Soft .DesktopPartnerSec{
+        display: none;
+    }
+    /* #Soft .DesktopRecentWork{
+        display:none;
+    } */
+
+    
+    #Soft .Our-Row {
+        
+        flex-wrap: nowrap !important;
+        overflow-x: scroll;
+        display: flex;
+       justify-content: flex-start !important;
+       margin-left: 0px !important;
+        
+      }
+      #Soft .ourworkpara{
+        width: 250px !important;
+      }
+      #Soft .Our-Banner {
+        height: 495px !important;
+        margin-bottom: 70px !important;
+      }
+      #Soft .Our-Heading p {
+        font-size: 16px !important;
+      }
+      #Soft .Our-Img{
+        margin-top: -25px !important;
+      }
+     
+
+    #Soft .MobileKeyService{
+        display: block;
+    }
+    #Soft .MobileKeyService .homeServiceMobile {
+        background-color: #F5F2FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10px;
+    }
+    #Soft .MobileKeyService .homeServiceRow {
+        flex-wrap: nowrap;
+        overflow-x: scroll !important;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory !important;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        font-family: 'DMSansRegular';
+    }
+    #Soft .MobileKeyService .homeServiceRow>.col {
+        margin: 10px 0px;
+        min-width: 150px;
+        min-height: 120px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    #Soft .MobileKeyService .homeServiceRow::-webkit-scrollbar {
+        width: 0px;
+    }
+    #Soft .MobileKeyService .homeserviceCont h3 {
+        color: #292930;
+        font-family: DMSansBold;
+    }
+    #Soft .MobileKeyService .homeServiceColMain h5{
+        font-family: DMSansMedium;
+        font-size: 14px;
+    }
+    #Soft .MobileKeyService .homeServiceRow .homeServiceColMain {
+        /* min-width: 150px; */
+        min-height: 120px;
+        padding-left: 0px !important;
+        margin: 0px 0px;
+        border-radius: 8px;
+    }
+    #Soft .MobileKeyService .homeServiceRow .homeServiceColMain img {
+        max-width: 35px;
+        max-height: 35px;
+    }
+    #Soft .MobileKeyService .homeServiceRow .homeServiceColMain:hover {
+        border: 2px solid #1EE2CF;
+        border-top: 0px;
+        border-right: 50%;
+    }
+    #Soft .MobileKeyService .homeServiceRow .homeServiceColMainMore {
+        min-width: 150px;
+        min-height: 120px;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 0px !important;
+        margin: 0px 0px;
+    }
+    #Soft .MobileKeyService .homeServiceRow .homeServiceColMainMore img {
+        max-width: 35px;
+        max-height: 35px;
+    }
+    #Soft .MobileKeyService .headtext{
+        text-align: center;
+    }
+    #Soft .DevelopMvp{
+        display: none;
+    }
+    #Soft .DesktopIndustrySec .sass-border{
+        max-width: 150px !important;
+        height: 100px !important;
+    }
+    #Soft .DesktopIndustrySec .sass-border img{
+        max-width: 35px !important;
+       }
+       #Soft .DesktopIndustrySec .sass-border h6{
+        font-size: 14px !important;
+        font-family: DMSansRegular;
+        text-align: center;
+    }
+    #Soft .DesktopIndustrySec .RecentHeading{
+        margin: -60px;
+    }
+    #Soft .texts-Heading h4{
+        text-align: right;
+        font-size: 33px;
+    }
+    
+
+
+    #Soft .homeBlog{
+        display: none;
+    }
+    #Soft .MobileBlogMain{
+        display: block;
+    }
+
+    #Soft .MobileBlogMain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EDEFFA;
+        height: 250px;
+        padding: 20px 20px;
+        /* margin-bottom: 30px; */
+    }
+
+    #Soft .MobileBlogMain h3 {
+        color: #000;
+        font-family: DMSansBold;
+        text-align: center;
+    }
+
+    #Soft .MobileBlogMainSlide {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        gap: 20px;
+    }
+
+    #Soft .MobileBlogList {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 10px 0px;
+    }
+
+    #Soft .MobileBlogMainSlide::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    #Soft .MobileBlogList div:nth-child(2) {
+        background-color: #FFFFFF;
+        padding: 20px 10px;
+        text-align: left;
+    }
+
+    #Soft .MobileBlogList div:nth-child(3) {
+        background-color: #FFFFFF;
+        padding: 20px 10px;
+        border-radius: 0px 20px 20px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Soft .MobileBlogListImg {
+        border-radius: 10px 0px 0px 10px;
+        width: 85px !important;
+        height: 92px !important;
+    }
+
+    #Soft .MobileBlogListImg img {
+        border-radius: 10px 0px 0px 10px;
+        width: 85px;
+        height: 106px;
+        object-fit: cover;
+    }
+
+    #Soft .MobileBlogMainSlide h5 {
+        color: #6A0EFF;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    #Soft .MobileBlogMainSlide p {
+        color: #8A879F;
+        font-size: 10px;
+        text-align: left;
+    }
+
+    /* Mobile Blog */
+
+    /* guide topic*/
+    #Soft .GuideTopic{
+        display: block !important;
+      }
+      #Soft .GuideTopic .homeProduct .accordion-item{
+    
+        margin-top: 8px !important;
+    }
+    #Soft .GuideTopic .homeProduct .accordion-button {
+        background-color: #F5F5F8 !important;
+        color: #141125 !important;
+        font-family: DMSansBold !important;
+        border: none !important;
+        --bs-accordion-border-color: transparent !important;
+    }
+    #Soft .GuideTopic .homeProduct .accordion-button::after {
+        background-color: #5138EE ;
+        border-radius: 50%;
+        background-image: url('../Assets/Image/NewService/Software/ArrowHomeDown.png') !important;
+        background-position: center !important;
+        background-size: auto !important;
+    }
+    #Soft .GuideTopic .accordion-button:not(.collapsed)::after {
+        background-color: #141125 !important;
+        border-radius: 50%;
+        background-image: url('../Assets/Image/NewService/Software/ArrowHomeDown.png') !important;
+        background-position: center !important;
+        background-size: auto !important;
+    }
+    #Soft .GuideTopic .homeProduct .accordion-item{
+        border-radius: 10px;
+        border: none!important;
+    }
+    #Soft .GuideTopic .accordion-button.collapsed::after{
+        background-color: #5138EE!important; 
+    }
+    #Soft .GuideTopic .topsec{
+        margin-top: 15px;
+    }
+    
+    
+    #Soft .GuideTopic .headcont{
+        font-family: DMSansBold;
+        font-size: 20px;
+        text-align: center;
+    }
+    #Soft .GuideTopic .active {
+        border-bottom: 2px solid #7F40FF;
+    }
+    #Soft .DesktopFaq{
+        display: none;
+    }
+    #Soft .DesktopForm{
+        display: none;
+    }
+
+    
+}

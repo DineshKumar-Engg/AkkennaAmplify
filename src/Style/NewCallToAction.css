@@ -1,0 +1,144 @@
+@font-face {
+    font-family: DMSansBold;
+    src: url('../Assets/font/DMSans-Bold.ttf')
+}
+
+@font-face {
+    font-family: DMSansMedium;
+    src: url('../Assets/font/DMSans-Medium.ttf')
+}
+
+@font-face {
+    font-family: DMSansRegular;
+    src: url('../Assets/font/DMSans-Regular.ttf')
+}
+
+
+#NewCallToAction {
+    font-family: DMSansRegular;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.DMSansBold {
+    font-family: DMSansBold;
+}
+
+.DMSansMedium {
+    font-family: DMSansMedium;
+}
+
+.DMSansRegular {
+    font-family: DMSansRegular;
+}
+/* New call to action component */
+#NewCallToAction .RowcallToAction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#NewCallToAction .homeCallAction {
+    background-image: url('../Assets/Image/NewHome/CallToAction.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 15vh;
+    max-height: auto;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+#NewCallToAction .homeCallAction .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#NewCallToAction .homeCallAction .row h4 {
+    color: #FFFFFF;
+}
+
+#NewCallToAction .homeCallAction .row p {
+    color: #A0B8FF;
+}
+
+#NewCallToAction .homeCallAction .row div:nth-child(2) {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#NewCallToAction .homeCallAction button {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #A158FF;
+    color: #FFFFFF;
+    font-family: DMSansBold;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 12px 35px;
+}
+
+    @media only screen and (max-width:600px) and (min-width:300px) {
+        #NewCallToAction .NewCallContain {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* padding-right: 0px !important;
+            padding-left: 0px !important; */
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+        }
+    
+        #NewCallToAction .homeCallAction {
+            background-image: url('../Assets/Image/NewHome/CallToAction.svg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 10px 20px;
+            min-height: 100px;
+            border-radius: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+        }
+        #NewCallToAction .homeCallAction .row div:nth-child(2) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #NewCallToAction .homeCallAction .row h4 {
+            text-align: center;
+            color: #FFFFFF;
+            font-size: 15px;
+        }
+    
+        #NewCallToAction.homeCallAction .row p {
+            color: #A0B8FF;
+            font-size: 12px;
+            text-align: center;
+            margin-top: 8px !important;
+        }
+    
+        #NewCallToAction .homeCallContainMobile>div {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 8px;
+            margin-bottom: -60px;
+        }
+    
+        #NewCallToAction .homeCallAction button {
+            padding: 12px 15px;
+            font-size: 12px;
+            background: rgb(112, 45, 246);
+            background: linear-gradient(90deg, rgba(112, 45, 246, 1) 0%, rgba(79, 14, 210, 1) 100%);
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+        }
+    }

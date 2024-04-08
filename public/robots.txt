@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Allow: /
+sitemap: https://www.akkenna.com/sitemap.xml
+
+User-agent: *
+Disallow
+sitemap: /insights.akkenna

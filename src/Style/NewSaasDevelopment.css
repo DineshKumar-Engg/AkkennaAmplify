@@ -1,0 +1,746 @@
+@font-face {
+    font-family: DMSansBold;
+    src: url("../Assets/font/DMSans-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: DMSansMedium;
+    src: url("../Assets/font/DMSans-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: DMSansRegular;
+    src: url("../Assets/font/DMSans-Regular.ttf");
+  }
+  
+  #SSD {
+    font-family: DMSansRegular;
+    margin-top: 75px;
+  }
+  
+  .DMSansBold {
+    font-family: DMSansBold;
+  }
+  
+  .DMSansMedium {
+    font-family: DMSansMedium;
+  }
+  
+  .DMSansRegular {
+    font-family: DMSansRegular;
+  }
+
+
+
+
+#SSD .Discover {
+    margin-top: 70px;
+    
+  }
+#SSD .Discover {
+    background-image: url('../Assets/Image/NewService/Saas/bannerbackground.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: auto;
+    /* min-height: 60vh; */
+  }
+  #SSD .Discover .leftcontent{
+    align-self: center;
+  }
+#SSD .Discover .DisContent h4 {
+    color: #FFFFFF;
+    font-family: DMSansBold;
+    font-size: 50px;
+    
+  }
+#SSD .Discover .DisContent p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: DMSansRegular;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+#SSD .Discover .DisContent button {
+    padding: 10px 30px;
+    font-size: 22px;
+    border-radius: 15px;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    color:#000000;
+    font-family: DMSansBold;
+  }
+  #SSD .headimgright img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+  }
+  #SSD .headimgright{
+    margin-bottom: -15px;
+  }
+  @media only screen and (max-width: 1400px) and (min-width: 1000px){
+    #SSD .Discover .DisContent h4 {
+      font-size: 35px;
+  }
+  }
+
+  /* Process section */
+  
+  #SSD .process{
+    margin-top: 30px;
+  }
+  #SSD .DesktopSec2 .ContentBoxSec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #SSD .process .ContentBoxSec2 h4 {
+    font-family: DMSansBold;
+    color: #01103D;
+    font-size: 40px;
+  }
+  #SSD .process .parabox{
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #SSD .process .parabox p{
+    font-family: DMSansRegular;
+    font-size: 16px;
+  }
+  @media only screen and (max-width: 1200px) and (min-width: 1000px){
+    #SSD .process .parabox p{
+      font-size: 13px;
+    }
+  }
+  #SSD .process .ContentBox2 p{
+    font-family: DMSansBold;
+    font-size: 18px;
+    margin-top: 15px !important;
+  }
+
+  @media only screen and (max-width: 1400px) and (min-width: 1200px){
+    #SSD .process .ContentBox2 p {
+      font-size: 15px;
+  }
+  }
+  @media only screen and (max-width: 1200px) and (min-width: 1000px){
+    #SSD .process .ContentBox2 p {
+      font-size: 12px;
+  }
+  }
+  
+  /* worldclass section */
+  #SSD .DesktopSec4{
+    background-color: rgba(202, 214, 237, 0.2);
+  }
+  
+#SSD  .DesktopSec4 .leftimg img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    break-inside: avoid;
+    max-width: 100%;
+}
+#SSD .unveilingRow{
+    margin-top: -65px;
+    display: flex;
+    align-items: center;
+}
+#SSD .unveilingRow .leftimg{
+  margin-bottom: -30px;
+}
+
+#SSD  .DesktopSec4 .HeadingDiv h4{
+  color: rgba(88, 0, 255, 1);
+  font-size: 40px;
+  font-family: DMSansBold;
+}
+#SSD  .DesktopSec4 .HeadingDiv p{
+  color: rgba(100, 115, 160, 1);
+  font-size: 16px;
+  font-family: DMSansMedium;
+  margin-top: 15px !important;
+}
+#SSD  .DesktopSec4 .HeadingDiv1 h4{
+  color: rgba(0, 0, 0, 1);
+  font-size: 40px;
+  font-family: DMSansBold;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1000px){
+  #SSD  .DesktopSec4 .HeadingDiv h4{
+    font-size: 30px;
+ }
+ #SSD  .DesktopSec4 .HeadingDiv p{
+  font-size: 12px;
+}
+}
+
+/* Key Characteristics of SaaS Applications */
+#SSD .ApplicationSaas{
+  margin-top: 40px;
+}
+#SSD .ApplicationSaas  .headcontent{
+  font-family: DMSansBold;
+  font-size: 40px;
+  
+}
+#SSD .ApplicationSaas  .paracontent{
+  font-family: DMSansRegular;
+  font-size: 16px;
+  margin-top: 5px;
+  
+}
+#SSD .ApplicationSaas .analytics-left h5{
+   font-family: DMSansMedium;
+   font-size: 16px;
+}
+@media only screen and (max-width: 1200px) and (min-width: 1000px){
+  #SSD .ApplicationSaas .analytics-left h5{
+    font-size: 11px;
+ }
+}
+@media only screen and (max-width: 1400px) and (min-width: 1200px){
+  #SSD .ApplicationSaas .analytics-left h5 {
+    font-family: DMSansMedium;
+    font-size: 14px;
+  }
+}
+
+#SSD .ApplicationSaas .mainrow{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+#SSD .ApplicationSaas .analytics-left .nav{
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+#SSD .ApplicationSaas .analytics-left .active,
+.analytics-left .nav:hover{
+  background-color:#473BF0 ;
+  color: #ffffff;
+}
+
+#SSD .ApplicationSaas .analytics-left .nav .right-icon{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#SSD .ApplicationSaas .analytics-left .nav:hover  .right-icon,
+.analytics-left .active .right-icon{
+  background-color: #F2F2F2;
+  color: #000;
+}
+
+#SSD .ApplicationSaas .analytics-right{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 5px;
+  padding: 30px;
+  overflow-y: scroll;
+    height: 215px;
+}
+#SSD .ApplicationSaas .analytics-right::-webkit-scrollbar{
+width: 0px !important;
+}
+#SSD .ApplicationSaas .rowmain{
+  justify-content: space-around;
+  background-color: #FCFCFC;
+}
+#SSD .ApplicationSaas h4{
+  color: #473BF0;
+    font-family: DMSansMedium;
+    font-size: 18px;
+}
+#SSD .ApplicationSaas .rightparacont{
+  font-size: 14px;
+  font-family: 'DMSansRegular';
+}
+
+#SSD .ApplicationSaas .rightbox{
+  display: flex;
+  align-items: center;
+  height: 35vh;
+  margin-left: 75px; 
+}
+#SSD .ApplicationSaas .secrow{
+margin-left: 75px;
+}
+
+ /* {ServiceSaaS section } */
+ #SSD .ServiceSaaS .servicetop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+ #SSD .ServiceSaaS .SaasService {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0px;
+}
+
+
+#SSD  .ServiceSaaS   .SaasService h1 {
+ color: rgba(41, 41, 48, 1);
+  text-align: center;
+  font-family: DMSansBold;
+  font-size:40px;
+}
+
+#SSD  .ServiceSaaS   .SaasService p {
+    color: rgba(138, 144, 162, 1);
+    text-align: center;
+    font-family: DMSansRegular;
+    font-size: 16px;
+}
+
+#SSD  .ServiceSaaS   .SaasServiceRow {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1000px){
+  #SSD  .ServiceSaaS   .SaasServiceRow .SaasServiceColMain {
+    min-width: 230px !important;
+  }
+}
+
+#SSD  .ServiceSaaS   .SaasServiceRow .SaasServiceColMain {
+  background-color: #FFFFFF;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-radius: 15px;
+  min-width: 265px;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 25px;
+}
+
+#SSD  .ServiceSaaS   .SaasServiceRow .SaasServiceColMain h5 {
+  color:rgba(41, 41, 48, 1);
+  font-family: DMSansMedium;
+  font-size: 20px;
+}
+
+#SSD  .ServiceSaaS   .SaasServiceRow .SaasServiceColMain:hover {
+  border-bottom: 2px solid #7F40FF;
+}
+
+#SSD  .ServiceSaaS   .SaasServiceRowText .SaasServiceColMain{
+  background-color: #82CEFD;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
+  border-radius: 15px;
+  margin: 0px 20px;
+  min-width: 150px;
+  min-height: 150px;
+}
+
+#SSD  .ServiceSaaS   .SaasServiceRowText .SaasServiceColMain {
+  flex-direction: column;
+  min-width: 150px;
+  min-height: 150px;
+  gap: 10px;
+}
+
+#SSD  .ServiceSaaS   .SaasServiceRowText .SaasServiceColMain>.col:first-child {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+#SSD  .ServiceSaaS   .SaasServiceRowText .SaasServiceColMain>.col:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#SSD  .ServiceSaaS   .SaasServiceRowText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#SSD  .ServiceSaaS   .SaasServiceRowText h4 {
+  text-align: left;
+  color: #5800FF;
+  font-family: DMSansBold;
+  font-size: 39px !important;
+}
+
+#SSD  .ServiceSaaS   .SaasServiceRowText p {
+  text-align: left;
+  color: #6473A0;
+  font-family: DMSansMedium;
+  font-size: 15px;
+}
+#SSD  .ServiceSaaS   .rowcolor{
+  /* background-color: rgba(247, 248, 253, 1); */
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+}
+
+#SSD .ServiceSaaS .SaasServiceColMain>.col:nth-child(2) img{
+ width: 30%;
+}
+
+#SSD .ServiceSaaS .SaasServiceColMain>.col:nth-child(1){
+ display: flex;
+ flex-direction: column;
+ align-items: end;
+ justify-content: center;
+}
+#SSD  .ServiceSaaS   .SaasServiceColMain{
+  max-height: min-content;
+}
+
+
+
+
+/* Slider section */
+#SSD .homeSlidermain{
+  margin-top: 10px;
+  display: flex;
+    flex-direction: column;
+}
+
+ #SSD .homeSlidermain .homeheading p{
+  color:rgba(138, 144, 162, 1);
+  font-size: 16px;
+  font-family: DMSansRegular;
+}
+#SSD .homeSlidermain .homeheading h4{
+  color: rgba(41, 41, 48, 1);
+  font-size: 40px;
+  font-family: DMSansBold;
+}
+@media only screen and (max-width: 1000px) and (min-width: 300px){
+  #SSD .homeSlidermain .homeheading h4 {
+    /* margin-top: 30px !important; */
+    font-size: 18px !important;
+  }
+  #SSD .homeSlidermain .homeheading p {
+    display: none !important;
+    font-size: 11px;
+}
+}
+@media only screen and (max-width: 1200px) and (min-width: 300px){
+  #SSD .homeSlidermainRow::before {
+    height: 0px !important;
+  }
+  #SSD .homeSlidermainRow::after {
+    height: 0px !important;
+  }
+}
+
+
+/* second section blackbackground */
+#SSD .headsecDevelop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#SSD .headsecDevelop h2{
+  font-family: 'DMSansBold';
+  font-size: 40px;
+}
+#SSD .headsecDevelop p{
+  font-family: 'DMSansRegular';
+  font-size: 16px;
+}
+#SSD .mainbox {
+  font-family: DMSansRegular;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: rgb(247, 249, 255);
+  background: linear-gradient(90deg, rgba(247, 249, 255, 1) 0%, rgba(245, 248, 255, 1) 100%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 0px;
+}
+#SSD .mainbox .mainboxrow{
+  /* margin-left: 0px !important; */
+  margin-right: 0px !important;
+}
+
+#SSD .DevelopScroll {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+#SSD .DevelopSaas .scrollStyle {
+  height: 400px;
+  scrollbar-width: thin;
+}
+
+#SSD .DevelopSaas .DevelopScroll::-webkit-scrollbar {
+  width: 6px;
+}
+#SSD .DevelopSaas .DevelopScroll::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+
+#SSD .DevelopSaas .DevelopScroll::-webkit-scrollbar-thumb {
+  background: #D8D8D8;
+}
+#SSD .DevelopSaas .DevelopScroll .scrollStyle .headcontent{
+  font-family: DMSansBold;
+  color: #161C2D;
+  margin-bottom: 10px;
+}
+#SSD .DevelopSaas .DevelopScroll .scrollStyle .paracontent{
+  font-family: DMSansRegular;
+  color: #4E5673;
+}
+#SSD .DevelopSaas .custom-radio {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+#SSD .DevelopSaas .nav {
+  display: flex;
+  gap: 10px;
+}
+
+#SSD .DevelopSaas .radiobox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#SSD .DevelopSaas .DevelopMvpRadioDiv {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+#SSD .DevelopSaas .DevelopMvpRadioDiv div:first-child {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  /* background-color: #FFFFFF; */
+  background-color: #E0E7EE;
+  border-radius: 50%;
+  color: #979797;
+  /* padding-bottom:10px ; */
+}
+
+#SSD .DevelopSaas .DevelopMvpRadioDiv::before {
+  content: '';
+  width: 1px;
+  height: 45px;
+  border: 1px solid #FFFFFF;
+  position: relative;
+  top: 45px;
+  left: 18px;
+}
+
+#SSD .DevelopSaas .lastradio::before {
+  top: 0px !important;
+}
+
+#SSD .DevelopSaas .DevelopMvpRadioDiv div:nth-child(2) {
+  opacity: 0;
+}
+
+#SSD .DevelopSaas .DevelopMvpRadioDiv .active {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+}
+
+#SSD .DevelopSaas .radiobox h5 {
+  font-family: DMSansRegular;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+
+/* {Our Recent Works section} */
+#SSD .Our-Heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+  
+       #SSD .Our-Heading h4 {
+        color: rgba(0, 0, 0, 1);
+        font-family: DMSansBold;
+        font-size: 40px;
+        text-align: center;
+      }
+      #SSD .Our-Heading p {
+        color: rgba(138, 144, 162, 1);
+        font-family: DMSansRegular;
+        font-size: 13px;
+        text-align: center;
+      }
+      #SSD .Our-Banner {
+        background-image: url(../Assets/Image/NewService/Saas/body.svg);
+        height: 410px;
+        border-radius: 25px;
+      }
+      #SSD .Our-Content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 330px;
+        text-align: center;
+      }
+      #SSD .Our-Content:hover img {
+        filter: contrast(1);
+      }
+        #SSD .Our-Content:hover p {
+         color: rgba(77, 27, 145, 1);
+       }
+      #SSD .Our-Content img {
+        max-width: 130px;
+        filter: grayscale(100%);
+      }
+      @media only screen and (max-width: 1100px) and (min-width: 1000px){
+        #SSD .DesktopRecentWork .ourworkpara {
+            width: 250px !important;
+        }
+        #SSD .Our-Row {
+          margin-left: 0px !important;
+        }
+    }
+      
+      #SSD .Our-Content p {
+        color: rgba(22, 28, 45, 1);
+        font-family: DMSansBold;
+        font-size: 19px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+      }
+      #SSD .Our-Row {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: -30px;
+        padding: 0px 30px;
+        
+      }
+      
+      #SSD .Our-Img {
+        width: 50px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+      }
+
+      /* {Industry section} */
+         #SSD .texts-Heading h4{
+               color: rgba(0, 0, 0, 1);
+               font-size: 40px;
+         }
+         #SSD .texts-Heading p{
+          color:rgba(138, 144, 162, 1);
+          font-size: 14px;
+    }
+         #SSD .sass-App{
+          display: flex;
+          justify-content:center;
+          align-items: center;
+        }
+        @media only screen and (max-width: 1100px) and (min-width: 1000px){
+          #SSD .sass-border {
+            max-width: 220px !important;
+          }
+      }
+      
+        #SSD .sass-border{
+          border-radius:30px  0px 30px 0px;
+          border: 1px solid rgba(217, 217, 217, 1);
+          margin: 10px 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 15px;
+          padding: 50px;
+          max-width: 250px;
+          height: 180px;
+        }
+        #SSD .sass-border img{
+         max-width: 65px;
+        }
+        #SSD .sass-border h6{
+            font-size: 22px;
+            font-family: DMSansRegular;
+           
+            text-align: center;
+        }
+        
+        @media (max-width:700px) {
+          
+          
+         #SSD .sass-App {
+            display: flex !important;
+            flex-direction: row !important;
+            flex-wrap: nowrap !important;
+            overflow-x:scroll !important;
+            justify-content: flex-start;
+          }
+        }
+        #SSD .MobileBanner{
+          display: none;
+        }  
+        #SSD .MobileSec2{
+          display:none
+        }
+        #SSD .DesktopSec4{
+          display:none
+        }
+        #SSD .MobileSec4{
+          display: none;
+        }
+        #SSD .MobileSec6{
+          display: none;
+        }
+        #SSD .MobileSec8{
+          display: none;
+        }
+        #SSD .MobileRecentwork{
+          display:none;
+        }
+        #SSD .MobileBlogMain {
+          display: none;
+        }

@@ -1,0 +1,480 @@
+@media only screen and (max-width:800px) and (min-width:300px) {
+    #SSD{
+        margin-top: 0px !important;
+    }
+    #SSD .DesktopBanner{
+        display: none;
+    }
+    #SSD .DesktopSec2{
+        display: none;
+    }
+    #SSD .MobileSec2{
+        display: block !important;
+        margin-bottom: -30px;
+    }
+    /* #SSD .DesktopCTA{
+        display: none;
+    } */
+    #SSD .DesktopSec4{
+        display: none;
+    }
+    #SSD .DesktopSec5{
+        display: none;
+    }
+    #SSD .DesktopSec6{
+        display: none;
+    }
+    /* #SSD .DesktopSec7{
+        display: none;
+
+    }  */
+    #SSD .DesktopSec8{
+        display: none;
+
+    }
+    #SSD .DesktopFaq{
+        display: none;
+
+    }
+    #SSD .DesktopRecentWork{
+        display: none;
+
+    }
+    /* #SSD .DesktopCTA2{
+        display: none;
+
+    } */
+    /* #SSD .DesktopIndustrySec{
+        display: none;
+
+    } */
+    #SSD .Desktopcontactform{
+        display: none;
+
+    }
+    #SSD .DesktopBlog{
+        display: none;
+
+    }
+    #SSD .MobileBanner{
+        display: block;
+    }
+    #SSD .MobileBanner{
+        background-image: url("../Assets/Image/NewService/Saas/SaasMobilebgbanner.svg")!important;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: auto;
+        margin-top: 25px;
+        min-height: 35vh;
+    }
+    #SSD .MobileBanner .bannercontent{
+        color: rgb(245, 237, 237);
+        padding-top: 50px;
+    } 
+    #SSD .MobileBanner .bannercontent h2{
+        font-family:  DMSansBold;
+        font-size: 22px;
+    }
+    #SSD .MobileBanner .headcontent{
+        margin-bottom: 10px 
+    }
+    #SSD .MobileBanner .bannercontent p{
+        font-family: DMSansMedium;
+        font-size: 12px;
+    }
+    #SSD .MobileBanner .bannerbtn{
+        display: flex;
+        align-items: center;
+        margin-top: 10px; 
+    }
+    #SSD .MobileBanner button{
+        width: 165px;
+        height: 35px;
+        border-radius: 10px;
+        font-family: DMSansMedium;
+        font-size: 14px;
+        border: none;
+    }
+    #SSD .MobileSec2 .boxcontainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #SSD .MobileSec2 .Sec2cont{
+        display: flex;
+    justify-content: space-between;
+    }
+    #SSD .MobileSec2 .Sec2cont {
+        font-family: DMSansBold;
+        font-size: 10px;
+        text-align: center;
+    }
+    #SSD .MobileSec2 .backgroundsec{
+    background-color: white;
+    width: 95%;
+    min-height: 9vh;
+    align-items: center;
+    display: flex;
+    margin-top: -20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    }
+    #SSD .MobileSec2 .backgroundsec img{
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 30px;
+        margin-bottom: 8px;
+    }
+    #SSD .MobileSec2 .contbox{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    #SSD .MobileCTA{
+        display: block;
+        background-image: url('../Assets/Image/NewService/Saas/MobileCTAbg.svg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+       
+    }
+
+
+    #SSD .MobileCTA .homeCallContain{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+      
+    }
+    
+    #SSD .MobileCTA .homeCallAction .row h4 {
+        text-align: center;
+        color: #FFFFFF!important;
+        font-size: 18px;
+        font-family: 'DMSansMedium';
+    }
+    #SSD .MobileCTA .homeCallAction .row p {
+        color: #FFFFFF;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 8px !important;
+    }
+    #SSD .MobileCTA .homeCallContainMobile>div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 8px;
+        margin-bottom: -20px;
+    }
+    #SSD .MobileCTA .homeCallAction button {
+        color: #FFFFFF;
+    padding: 12px 15px;
+    font-family: 'DMSansBold';
+    font-size: 14px;
+    border-radius: 10px;
+    background: rgb(112, 45, 246);
+    width: 245px;
+    height: 45px;
+    }
+
+    #SSD .MobileSec4{
+        display: block;
+    }
+
+    #SSD .MobileSec4 .topcontent{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 35px;
+    }
+    #SSD .MobileSec4 .topcontent h3{
+        font-family: DMSansBold;
+        font-size: 20px;
+        color: #5800ff;
+        margin-bottom: 5px;
+    }
+    #SSD .MobileSec4 .tecxclr{
+        color: #030303 !important;
+    }
+    #SSD .MobileSec4 .topcontent p{
+        font-family: DMSansMedium;
+        font-size: 12px;
+        margin-bottom: 10px !important;
+        margin-top: 10px !important;
+    }
+    #SSD .MobileSec4 .saasacordian{
+        margin-left: 15px;
+    }
+    #SSD .MobileSec4 .acchead{
+        display: flex;
+    }
+    #SSD .MobileSec4 .acchead h2{
+        font-size: 14px;
+    font-family: 'DMSansMedium';
+        
+    }
+    #SSD .MobileSec4 .acchead .col-3{
+        width: 40px !important;
+    }
+    #SSD .MobileSec4 .acchead .headbox{
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+    #SSD .MobileSec4 .accordion-button:not(.collapsed) h2::after {
+        color: #5138EE;
+    }
+
+    #SSD .MobileSec4 .accordion-button::after {
+        background-color: #5138EE !important;
+        border-radius: 50%;
+        background-image: url('../Assets/Image/NewService/Saas/ArrowHomeDown.png') !important;
+        background-position: center !important;
+        background-size: auto !important;
+    }
+    
+    #SSD .MobileSec4 .accordion-button:not(.collapsed)::after {
+        background-color: #C0C0C0 !important;
+        border-radius: 50%;
+        background-image: url('../Assets/Image/NewService/Saas/ArrowHomeDown.png') !important;
+        background-position: center !important;
+        background-size: auto !important;
+    }
+
+    /* why choose akkenna */
+    #SSD .MobileSec6{
+        display: block !important;
+    }
+    #SSD .MobileSec6 .appRow{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #SSD .MobileSec6 .Applicationhead{
+        display: flex;
+        text-align: center;
+        margin-top: 25px;
+    }
+    #SSD .MobileSec6 .Applicationhead h1{
+        font-family: DMSansBold;
+        font-size: 18px;
+    }
+    #SSD .MobileSec6 .boxcont{
+        display: flex;
+        align-items: center;
+    } 
+    #SSD .MobileSec6 .boxcont img{
+        width: 100px;
+        height: 30px;
+    }
+    #SSD .MobileSec6 .boxcont h2{
+        font-size: 18px;
+        font-family: 'DMSansMedium';
+    }
+    #SSD .MobileSec6 .fullbox{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* guide topic*/
+    #SSD .MobileSec8{
+        display: block !important;
+      }
+      #SSD .MobileSec8 .homeProduct .accordion-item{
+    
+        margin-top: 8px !important;
+    }
+    #SSD .MobileSec8 .homeProduct .accordion-button {
+        background-color: #F5F5F8 !important;
+        color: #141125 !important;
+        font-family: DMSansBold !important;
+        border: none !important;
+        --bs-accordion-border-color: transparent !important;
+    }
+    #SSD .MobileSec8 .homeProduct .accordion-button::after {
+        background-color: #5138EE ;
+        border-radius: 50%;
+        background-image: url('../Assets/Image/NewService/Saas/ArrowHomeDown.png') !important;
+        background-position: center !important;
+        background-size: auto !important;
+    }
+    #SSD .MobileSec8 .accordion-button:not(.collapsed)::after {
+        background-color: #141125 !important;
+        border-radius: 50%;
+        background-image: url('../Assets/Image/NewService/Saas/ArrowHomeDown.png') !important;
+        background-position: center !important;
+        background-size: auto !important;
+    }
+    #SSD .MobileSec8 .homeProduct .accordion-item{
+        border-radius: 10px;
+        border: none!important;
+    }
+    #SSD .MobileSec8 .accordion-button.collapsed::after{
+        background-color: #5138EE!important; 
+    }
+    #SSD .MobileSec8 .topsec{
+        margin-top: 15px;
+    }
+    
+    
+    #SSD .MobileSec8 .headcont{
+        font-family: DMSansBold;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 25px !important;
+    }
+    #SSD .MobileSec8 .active {
+        border-bottom: 2px solid #7F40FF;
+    }
+    /* industry we serve */ 
+    #SSD .texts-Heading h4 {
+        color: rgba(0, 0, 0, 1);
+        font-size: 25px;
+    }
+    #SSD .sass-border{
+        max-width: 150px !important;
+          height: 100px !important;
+    }
+    #SSD .texts-Heading p {
+        display: none;
+        color: rgba(138, 144, 162, 1);
+        font-size: 14px;
+    }
+    #SSD .sass-border img{
+        max-width: 40px;
+       }
+       #SSD .sass-border h6{
+        font-size: 17px;
+        font-family: DMSansRegular;
+       
+    }
+
+    /* recent works */
+    #SSD .MobileRecentwork{
+        display: block !important;
+    }
+
+    #SSD .MobileRecentwork .mainrow{
+        display: flex;
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        gap: 30px;
+        
+    }
+    #SSD .MobileRecentwork .image-container {
+        position: relative;
+    }
+    
+    #SSD .MobileRecentwork .image-container p {
+    position: absolute;
+    top: 90%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-family: 'DMSansBold';
+    font-size: 16px;
+    width: 100%;
+        
+    }
+    #SSD .MobileRecentwork .headcont{
+        text-align: center;
+        font-size: 20px;
+    font-family: 'DMSansBold';
+    }
+/* mobile blog */
+#SSD .MobileBlogMain {
+    display: block !important;
+}
+    #SSD .MobileBlogMain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EDEFFA;
+        height: 250px;
+        padding: 20px 20px;
+        /* margin-bottom: 30px; */
+    }
+
+    #SSD .MobileBlogMain h3 {
+        color: #000;
+        font-family: DMSansBold;
+        text-align: center;
+    }
+
+    #SSD .MobileBlogMainSlide {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        gap: 20px;
+    }
+
+    #SSD .MobileBlogList {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 10px 0px;
+    }
+
+    #SSD .MobileBlogMainSlide::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    #SSD .MobileBlogList div:nth-child(2) {
+        background-color: #FFFFFF;
+        padding: 20px 10px;
+        text-align: left;
+    }
+
+    #SSD .MobileBlogList div:nth-child(3) {
+        background-color: #FFFFFF;
+        padding: 20px 10px;
+        border-radius: 0px 20px 20px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #SSD .MobileBlogListImg {
+        border-radius: 10px 0px 0px 10px;
+        width: 85px !important;
+        height: 92px !important;
+    }
+
+    #SSD .MobileBlogListImg img {
+        border-radius: 10px 0px 0px 10px;
+        width: 85px;
+        height: 106px;
+        object-fit: cover;
+    }
+
+    #SSD .MobileBlogMainSlide h5 {
+        color: #6A0EFF;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    #SSD .MobileBlogMainSlide p {
+        color: #8A879F;
+        font-size: 10px;
+        text-align: left;
+    }
+
+    /* Mobile Blog */
+
+
+}

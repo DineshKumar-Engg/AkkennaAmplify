@@ -1,0 +1,1243 @@
+@font-face {
+  font-family: DMSansBold;
+  src: url('../Assets/font/DMSans-Bold.ttf')
+}
+
+@font-face {
+  font-family: DMSansMedium;
+  src: url('../Assets/font/DMSans-Medium.ttf')
+}
+
+@font-face {
+  font-family: DMSansRegular;
+  src: url('../Assets/font/DMSans-Regular.ttf')
+}
+
+
+#DataAnalytics {
+  font-family: DMSansRegular;
+
+}
+
+.DMSansBold {
+  font-family: DMSansBold;
+}
+
+.DMSansMedium {
+  font-family: DMSansMedium;
+}
+
+.DMSansRegular {
+  font-family: DMSansRegular;
+}
+
+/* section1 banner */
+#DataAnalytics .MobileAnalyticBanner {
+  display: none;
+}
+
+#DataAnalytics .DataAnalyticsBanner .Bgimg {
+  background: rgb(241, 184, 255);
+  background: linear-gradient(41deg, rgba(241, 184, 255, 1) 0%, rgba(65, 4, 164, 1) 100%);
+  height: 500px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+#DataAnalytics .DataAnalyticsBanner .CDiv h4 {
+  color: rgba(255, 255, 255, 1);
+  font-family: DMSansBold;
+  font-size: clamp(1.25rem, 1.0417rem + 1.1111vw, 3.125rem);
+}
+
+#DataAnalytics .DataAnalyticsBanner .CDiv p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-family: DMSansRegular;
+}
+
+#DataAnalytics .DataAnalyticsBanner .w-20 {
+  width: 78px;
+  height: 4px;
+}
+
+#DataAnalytics .DataAnalyticsBanner .RowDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 90px;
+}
+
+#DataAnalytics .DataAnalyticsBanner .CDiv button {
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: DMSansMedium;
+}
+
+#DataAnalytics .DataAnalyticsBanner .DataAnaBanner {
+  max-width: 100%;
+  height: 100%;
+}
+
+#DataAnalytics .DataAnalyticsBanner .DataAnaBanner img {
+  max-width: 100%;
+  height: 100%;
+}
+
+/* section2 */
+#DataAnalytics .MobileAboutMain {
+  display: none !important;
+}
+
+#DataAnalytics .DaSectionTwo .Decodes-bg {
+  background-image: url(../Assets/Image/NewService/DataAnalytics/Section2background.svg);
+  padding: 5px;
+  border-radius: 0px 0px 25px 25px;
+}
+
+#DataAnalytics .DataAnaModern {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -80px;
+}
+
+#DataAnalytics .DataAnaModern img {
+  max-width: 90%;
+  height: 100%;
+}
+
+#DataAnalytics .DaSectionTwo h5 {
+  color: rgba(1, 16, 61, 1);
+  font-family: DMSansBold;
+  font-size: 30px;
+}
+
+#DataAnalytics .DaSectionTwo p {
+  color: rgba(95, 97, 104, 1);
+  font-family: DMSansRegular;
+  font-size: clamp(0.75rem, 0.7222rem + 0.1481vw, 1rem);
+  line-height: 1.5;
+}
+
+/* section4 */
+#DataAnalytics .DaSectionTwo .analytics-left .nav {
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+#DataAnalytics .DaSectionTwo .analytics-left .active,
+.analytics-left .nav:hover {
+  background-color: #473BF0;
+  color: #ffffff;
+}
+
+#DataAnalytics .DaSectionTwo .analytics-left .nav .right-icon {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#DataAnalytics .DaSectionTwo .analytics-left .nav:hover .right-icon,
+.analytics-left .active .right-icon {
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  color: #000;
+}
+
+#DataAnalytics .DaSectionTwo .analytics-right {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+/* section */
+
+#DataAnalytics .DataSolutionsMobile {
+  display: none !important;
+}
+
+#DataAnalytics .akkennaDAsec3 .ContentDiv {
+  background-color: rgba(242, 242, 242, 1);
+  width: 170px;
+  height: 185px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+#DataAnalytics .akkennaDAsec3 .ContentDiv:hover {
+  background-color: rgba(71, 59, 240, 1);
+}
+
+#DataAnalytics .akkennaDAsec3 .ContentDiv:hover .ImageDiv {
+  background-color: #FFFFFF;
+}
+
+#DataAnalytics .akkennaDAsec3 .ImageDiv {
+  /* background-color: rgba(71, 59, 240, 1); */
+  background-color: #E4E4E4;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#DataAnalytics .akkennaDAsec3 .ContentDiv:hover .ImageDiv:nth-child(1),
+.ImageDiv:nth-child(2),
+.ImageDiv:nth-child(3),
+.ImageDiv:nth-child(4),
+.ImageDiv:nth-child(5),
+.ImageDiv:nth-child(7),
+.ImageDiv:nth-child(8) {
+  background-color: rgba(254, 247, 244, 1);
+}
+
+
+#DataAnalytics .akkennaDAsec3 .ContentDiv:hover .paraDiv p {
+  color: rgba(255, 255, 255, 1);
+}
+
+#DataAnalytics .akkennaDAsec3 .paraDiv {
+  width: 70px;
+
+}
+
+#DataAnalytics .akkennaDAsec3 .paraDiv p {
+  color: #535353;
+  font-size: 12px;
+  font-family: DMSansBold;
+}
+
+#DataAnalytics .akkennaDAsec3 .Heading h4 {
+  color: rgba(5, 7, 60, 1);
+  font-size: 40px;
+  font-family: DMSansBold;
+}
+
+
+
+#DataAnalytics .akkennaDAsec3 .Heading p {
+  color: #5F6168;
+  font-size: 14px;
+  font-size: clamp(0.8125rem, 0.7917rem + 0.1111vw, 1rem);
+}
+
+#DataAnalytics .akkennaDAsec3 .Heading h4 {
+  color: rgba(22, 28, 45, 1);
+  font-family: DMSansBold;
+  font-size: clamp(1.875rem, 1.8056rem + 0.3704vw, 2.5rem);
+}
+
+/* third section  */
+
+.DataSliderMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DataSliderMain h2 {
+  font-family: DMSansBold;
+  font-size: clamp(1.875rem, 1.8056rem + 0.3704vw, 2.5rem);
+  text-align: center;
+}
+
+.DataProcessSlider {
+  padding: 20px 0px;
+}
+
+.DataSliderMain .slick-prev {
+  display: none !important;
+}
+
+.DataSliderMain .slick-next {
+  display: none !important;
+}
+
+.DataSliderMain .slick-dots {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  margin-bottom: 0px !important;
+  margin-top: 10px !important;
+}
+
+.DataSliderMain .slick-dots li {
+  list-style-type: none !important;
+}
+
+.DataSliderMain .slick-dots button {
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  color: #05073C;
+  background-color: #05073C;
+  width: 12px;
+  height: 12px;
+  font-size: 0;
+}
+
+.DataSliderMain .slick-dots .slick-active button {
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: #05073C;
+  background-color: #05073C;
+  width: 25px;
+  height: 7px;
+  font-size: 0;
+}
+
+.DataSliderMain .DataProcess {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.DataSliderMain .DataProcess img {
+  width: 100px;
+  height: 100px;
+}
+
+.DataSliderMain p {
+  font-family: DMSansRegular;
+  color: #8A90A2;
+  text-align: center;
+  font-size: 14px;
+}
+
+.DataSliderMain .DataProcess p {
+  font-family: DMSansRegular;
+  color: #8A90A2;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* third section  */
+
+/* section9 css */
+#DataAnalytics #DataAnaRegion {
+  display: none !important;
+}
+
+#DataAnalytics .Dasection9 {
+  margin: 20px 0px;
+}
+
+#DataAnalytics .Dasection9 .headcontent {
+  font-family: DMSansBold;
+}
+
+#DataAnalytics .Dasection9 .analytics-left h5 {
+  font-family: DMSansBold;
+  font-size: 16px;
+  color: #000000;
+}
+
+#DataAnalytics .Dasection9 .analytics-left .nav {
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+#DataAnalytics .Dasection9 .analytics-left .active,
+.analytics-left .nav:hover {
+  background-color: #473BF0;
+  color: #ffffff;
+}
+
+#DataAnalytics .Dasection9 .analytics-left .active h5 {
+  color: #ffffff;
+}
+
+#DataAnalytics .Dasection9 .analytics-left .nav .right-icon {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#DataAnalytics .Dasection9 .analytics-right {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+
+#DataAnalytics .Dasection9 .analytics-right h5 {
+  font-family: DMSansMedium;
+  font-size: clamp(0.75rem, 0.7222rem + 0.1481vw, 1rem);
+}
+
+#DataAnalytics .Dasection9 .analytics-right h4 {
+  font-size: clamp(0.75rem, 0.6944rem + 0.2963vw, 1.25rem);
+  color: rgba(71, 59, 240, 1);
+  padding: 10px 0px !important;
+  font-family: DMSansMedium;
+}
+
+#DataAnalytics .Dasection9 .analytics-right li {
+  font-size: clamp(0.75rem, 0.7222rem + 0.1481vw, 1rem);
+  font-family: DMSansRegular;
+}
+
+#DataAnalytics .Dasection9 .analytics-right li::marker {
+  color: #8A90A2;
+}
+
+#DataAnalytics .Dasection9 .rowmain {
+  justify-content: space-around
+}
+
+/* slider section */
+#DataAnalytics .Slidersec {
+  margin: 40px 0px;
+}
+
+#DataAnalytics .Slidersec .Heading h4 {
+  color: rgba(22, 28, 45, 1);
+  font-family: DMSansBold;
+  font-size: 40px;
+}
+
+#DataAnalytics .Slidersec .Heading p {
+  color: rgba(22, 28, 45, 1);
+  font-family: DMSansRegular;
+  font-size: 13.5px;
+}
+
+#DataAnalytics .Slidersec .ContentDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid rgba(231, 233, 237, 1);
+  border-radius: 0px 0px 12px 12px;
+  padding: 17px;
+  border-top: 0;
+  /* width: 280px; */
+}
+
+
+#DataAnalytics .Slidersec .HeadDiv {
+  width: 270px !important;
+  transition: transform 150ms ease-in-out;
+}
+
+#DataAnalytics .Slidersec .slick-track {
+  height: 250px !important;
+}
+
+#DataAnalytics .Slidersec .HeadDiv:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transform: scale(1.02);
+}
+
+#DataAnalytics .Slidersec .ContentDiv h4 {
+  font-family: DMSansRegular;
+  color: rgba(22, 28, 45, 1);
+  font-size: 18px;
+}
+
+#DataAnalytics .Slidersec .ContentDiv img {
+  max-width: 19px;
+}
+
+#DataAnalytics .Slidersec .BgImg {
+  width: 100%;
+}
+
+#DataAnalytics .Slidersec .BgImg img {
+  max-width: 100%;
+}
+
+#DataAnalytics .Slidersec .slick-prev.slick-arrow {
+  position: absolute;
+  left: -50px;
+  top: 100px;
+  border: none;
+  background-image: url(../Assets/Image/NewService/DataAnalytics/sliderlefticon.svg);
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+  background-size: 100%;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+}
+
+#DataAnalytics .Slidersec .slick-next.slick-arrow {
+  position: absolute;
+  Right: -50px;
+  top: 100px;
+  border: none;
+  background-image: url(../Assets/Image/NewService/DataAnalytics/sliderrighticon.svg);
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+  background-size: 100%;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+}
+
+#DataAnalytics .Slidersec .slick-prev:before {
+  content: '';
+}
+
+
+
+/* section8 robot */
+#DataAnalytics .sec8Mobile {
+  display: none !important;
+}
+
+#DataAnalytics .ImgDiv img {
+  max-width: 560px;
+}
+
+#DataAnalytics .sec8 .ColDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#DataAnalytics .sec8 .imgDiv img {
+  max-width: 70px;
+}
+
+#DataAnalytics .sec8 .ContentCol {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  border-radius: 10px;
+  gap: 13px;
+  padding: 20px;
+  height: 160px;
+  width: 400px;
+}
+
+#DataAnalytics .sec8 .ContentDiv p {
+  color: rgba(22, 28, 45, 1);
+  font-family: DMSansRegular;
+  font-size: 12.5px;
+
+}
+
+#DataAnalytics .sec8 .ContentDiv h4 {
+  color: rgba(22, 28, 45, 1);
+  font-family: DMSansBold;
+  font-size: 20px;
+}
+
+#DataAnalytics .sec8 .BgImgDiv {
+  background-image: url(../Assets/Image/NewService/DataAnalytics/sec8background.svg);
+  border-radius: 19px;
+}
+
+#DataAnalytics .sec8 .Heading h4 {
+  color: rgba(22, 28, 45, 1);
+  font-family: DMSansBold;
+  font-size: 37px;
+}
+
+/* section application */
+
+#DataAnalytics .application .applicationbgimg {
+  background: rgb(243, 240, 255);
+  background: linear-gradient(0deg, rgba(243, 240, 255, 1) 0%, rgba(231, 231, 255, 0) 100%);
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#DataAnalytics .application .applicationMobile {
+  display: none !important;
+}
+
+#DataAnalytics .application .applicationColMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#DataAnalytics .application .nav button[type="checkbox"] {
+  background-color: #FFFFFF;
+  border: 1px solid #E7E7E7;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.ApplicationRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#DataAnalytics .DataTimeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+#DataAnalytics .DataTimeline hr {
+  border-top: 1px dashed #BCBBCC;
+  display: flex;
+  align-items: end;
+  opacity: 0.9 !important;
+  margin: 0px 0px;
+}
+
+#DataAnalytics .application .applicationTime {
+  display: flex;
+  text-align: center;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: -12px;
+}
+
+#DataAnalytics .application .nav {
+  display: flex;
+  flex-direction: column;
+}
+
+#DataAnalytics .application .nav .right-icon {
+  position: relative;
+}
+
+#DataAnalytics .application .topboxhead {
+  font-family: DMSansBold;
+  padding-bottom: 10px;
+}
+
+#DataAnalytics .application .topboxPara {
+  font-family: DMSansRegular;
+  color: #8A90A2;
+}
+
+#DataAnalytics .application .containerbox {
+  font-family: DMSansRegular;
+  align-items: center;
+  border-radius: 12px;
+}
+
+#DataAnalytics .application .analytics-right {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  text-align: left;
+  border-radius: 20px;
+}
+
+#DataAnalytics .application .icon {
+  padding: 10px 0px;
+}
+
+#DataAnalytics .application h5 {
+  font-family: DMSansMedium;
+  font-size: clamp(0.75rem, 0.7222rem + 0.1481vw, 1rem);
+}
+
+#DataAnalytics .application h4 {
+  font-size: clamp(0.75rem, 0.6944rem + 0.2963vw, 1.25rem);
+  color: rgba(71, 59, 240, 1);
+  padding: 10px 0px !important;
+}
+
+#DataAnalytics .application .containerbox {
+  padding: 15px;
+}
+
+#DataAnalytics .application li {
+  font-size: clamp(0.75rem, 0.7222rem + 0.1481vw, 1rem);
+  line-height: 20px;
+  margin-right: 25px;
+  font-family: DMSansRegular;
+}
+
+#DataAnalytics .application li::marker {
+  color: #8A90A2;
+}
+
+#DataAnalytics .application .contentbox {
+  margin-top: 50px;
+}
+
+#DataAnalytics .application .analyticsleft .active {
+  color: #473BF0;
+}
+
+#DataAnalytics .application .active button[type="checkbox"] {
+  border: 3px solid #473BF0;
+  background-color: #FFFFFF;
+  width: 17px;
+  height: 17px;
+}
+
+#DataAnalytics .application .right-icon button.bordered.analyticsleft:active {
+  border-color: #007bff;
+  background-color: #007bff;
+  color: #fff;
+  appearance: none;
+}
+
+#DataAnalytics #NewContactForm {
+  margin-top: 0px;
+}
+
+
+
+@media only screen and (max-width:600px) and (min-width:300px) {
+  #DataAnalytics .DataAnalyticsBanner {
+    display: none;
+  }
+
+  #DataAnalytics .MobileAnalyticBanner {
+    background: linear-gradient(41deg, rgba(1, 254, 193, 1) 0%, rgba(65, 4, 164, 1) 100%);
+    background-image: url('../Assets/Image/NewService/DataAnalytics/AnalyMobileBanner.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px !important;
+    height: 50vh;
+  }
+
+  #DataAnalytics .MobileAnalytCont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    gap: 8px;
+  }
+
+  #DataAnalytics .MobileAnalytCont h1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: DMSansBold;
+    font-size: clamp(1.25rem, 0.9375rem + 1.6667vw, 1.5625rem);
+  }
+
+  #DataAnalytics .MobileAnalytCont p {
+    color: rgba(255, 255, 255, 1);
+    font-size: clamp(0.75rem, 0.5156rem + 0.75vw, 0.9375rem);
+    font-family: DMSansRegular;
+  }
+
+  #DataAnalytics .MobileAnalytCont button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: DMSansBold;
+    width: fit-content;
+  }
+
+
+  /* Second Section */
+  #DataAnalytics .DaSectionTwo {
+    display: none;
+  }
+
+  #DataAnalytics .MobileAboutMain {
+    display: block !important;
+    margin-top: -15px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #DataAnalytics .MobileAboutMain .MobileDecodingsRow {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 8px 10px;
+    gap: 6px;
+    flex-wrap: nowrap;
+    width: 95%;
+  }
+
+  #DataAnalytics .MobileAboutMain .MobileDecodingsRow p {
+    font-family: DMSansRegular;
+    color: #787878;
+  }
+
+  #DataAnalytics .MobileAboutMain .MobileDecodingsRow h6 {
+    font-family: DMSansBold;
+    color: #01103D;
+  }
+
+  #DataAnalytics .MobileAboutMain .MobileDecodingsRow .MobileDecodingsRowImg {
+    border-right: 1px solid #F0EDFF;
+    padding-right: 8px;
+  }
+
+  #DataAnalytics .MobileAboutMain .MobileDecodingsRow .MobileDecodingsRowImg img {
+    width: 40px;
+    height: 40px;
+  }
+
+  #DataAnaABoutCanva {
+    min-height: 450px !important;
+    max-height: auto !important;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  #DataAnaABoutCanva .offcanvas-header {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: -25px;
+  }
+
+  #DataAnaABoutCanva .offcanvas-header button {
+    background-color: #FFFFFF !important;
+    border-radius: 50% !important;
+    opacity: 1 !important;
+  }
+
+  #DataAnaABoutCanva .homeAboutImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #DataAnaABoutCanva .homeAboutImg img {
+    width: 80% !important;
+  }
+
+  #DataAnaABoutCanva .homeAboutCanvaText h5 {
+    color: #3F4765;
+    font-family: DMSansBold;
+    font-size: 20px;
+    margin-top: 4px !important;
+  }
+
+  #DataAnaABoutCanva .homeAboutCanvaText p {
+    color: #5F6168;
+    font-family: DMSansRegular;
+    font-size: 14px;
+    text-align: start;
+    margin-top: 4px !important;
+  }
+
+  #DataAnalytics .akkennaDAsec3 {
+    display: none;
+  }
+
+  #DataAnalytics .DataSolutionsMobile {
+    display: block !important;
+  }
+
+  #DataAnalytics .DataSolutionsMobile h2 {
+    font-family: DMSansBold;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+  }
+
+  #DataAnalytics .MobileContentDiv {
+    display: flex !important;
+    align-items: center;
+    gap: 15px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 10px 10px;
+    width: 200px !important;
+  }
+
+  /* #DataAnalytics .DataSolutionsMobile .slick-list {
+    height: 200px !important;
+  }
+  #DataAnalytics .DataSolutionsMobile .slick-track {
+    height: 200px !important;
+  } */
+
+  #DataAnalytics .Slidersec .slick-track {
+    height: 200px !important;
+  }
+
+  #DataAnalytics .DataSolutionsMobile .slick-slide {
+    
+    width: 220px !important;
+    height: 65px;
+    background-color: #FFFFFF;
+  }
+
+  #DataAnalytics .DataSolutionsMobile  .slick-slider .slick-track {
+    height: 100px !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 20px;
+  }
+
+  #DataAnalytics .DataSolutionsMobile .slick-slider .slick-prev {
+    display: none !important;
+  }
+
+  #DataAnalytics .DataSolutionsMobile .slick-slider .slick-next {
+    display: none !important;
+  }
+
+  #DataAnalytics .DataSolutionsMobile .MobileImageDiv {
+    width: 75px;
+    height: 55px;
+    background-color: #FEF7F4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #DataAnalytics .MobileContentDiv img {
+    width: 30px;
+    height: 30px;
+  }
+
+  #DataAnalytics .MobileContentDiv p {
+    color: #000000;
+    font-family: DMSansBold;
+    font-size: 12px;
+  }
+
+  #DataAnalytics .MobileContentDiv:hover {
+    background-color: #473BF0;
+    color: #FFFFFF;
+  }
+
+  #DataAnalytics .MobileContentDiv:hover p {
+    color: #FFFFFF;
+  }
+
+
+  /* Dataslidermain */
+  #DataAnalytics .DataSliderMain {
+    margin: 20px 0px;
+  }
+
+  #DataAnalytics .DataSliderMain h2 {
+    width: 300px;
+    font-size: 20px;
+    padding-bottom: 10px !important;
+  }
+
+  #DataAnalytics .DataSliderMain p {
+    font-size: 12px;
+  }
+
+  #DataAnalytics .DataSliderMain .slick-dots {
+    margin-bottom: -15px !important;
+    width: 95% !important;
+  }
+
+  #DataAnalytics .DataSliderMain .slick-dots li.slick-active button:before {
+    opacity: 0 !important;
+  }
+
+  #DataAnalytics .DataSliderMain .slick-dots li button:before {
+    content: '' !important;
+  }
+
+
+
+  /* Data Application */
+
+  #DataAnalytics .application .applicationbgimg {
+    margin-top: 0px !important;
+    padding: 0px 10px;
+  }
+
+  #DataAnalytics .application .ApplicationRow {
+    text-align: center !important;
+  }
+
+  #DataAnalytics .application .topboxPara p {
+    font-size: clamp(0.75rem, 0.25rem + 2.6667vw, 1.25rem);
+  }
+
+  #DataAnalytics .application .contentbox {
+    margin-top: 5px;
+  }
+
+  #DataAnalytics .application .applicationDesktop {
+    display: none !important;
+  }
+
+  #DataAnalytics .application .applicationMobile {
+    display: block !important;
+    height: 60px;
+  }
+
+  #DataAnalytics .application .applicationMobileDiv {
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 350px;
+    height: 100%;
+  }
+
+  #DataAnalytics .application .applicationMobileDiv::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  #DataAnalytics .application .applicationColMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+  }
+
+  #DataAnalytics .DataTimeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 250%;
+  }
+
+  #DataAnalytics .application .applicationTime {
+    overflow-x: scroll;
+  }
+
+  #DataAnalytics .application .applicationTime h5 {
+    width: 100px;
+  }
+
+
+  /* slidersec */
+
+  #DataAnalytics .Slidersec .Heading h4 {
+    color: rgba(22, 28, 45, 1);
+    font-family: DMSansBold;
+    font-size: clamp(1.25rem, 0.9375rem + 1.6667vw, 1.5625rem);
+  }
+
+  #DataAnalytics .Slidersec .slick-slider .slick-next {
+    display: none !important;
+  }
+
+  #DataAnalytics .Slidersec .slick-slider .slick-prev {
+    display: none !important;
+  }
+
+  #DataAnalytics .Slidersec {
+    margin: 0px 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  #DataAnalytics .Slidersec .HeadDiv {
+    width: 200px !important;
+    transition: transform 150ms ease-in-out;
+  }
+
+  #DES .Slidersec .slick-list {
+    height: 200px !important;
+  }
+
+  #DataAnalytics .Slidersec .slick-track {
+    height: 200px !important;
+  }
+
+  #DataAnalytics .Slidersec .slick-slider .slick-track .slick-slide {
+    width: 230px !important;
+  }
+
+  #DataAnalytics .Slidersec .HeadDiv:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transform: scale(1.02);
+  }
+
+  #DataAnalytics .Slidersec .ContentDiv h4 {
+    font-family: DMSansRegular;
+    color: rgba(22, 28, 45, 1);
+    font-size: 12px;
+  }
+
+  #DataAnalytics .Slidersec .ContentDiv img {
+    max-width: 12px;
+  }
+
+  /* sec 8  */
+  #DataAnalytics .sec8Mobile {
+    display: block !important;
+  }
+
+  #DataAnalytics .sec8 {
+    display: none !important;
+  }
+
+  #DataAnalytics .sec8Mobile .DataSolutionsMobile h4 {
+    font-family: DMSansBold;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+  }
+
+  #DataAnalytics .sec8Mobile .slick-slider .slick-list {
+    height: 100px !important;
+  }
+
+  #DataAnalytics .sec8Mobile .slick-slider .slick-track {
+    height: 100px !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 20px;
+  }
+
+  #DataAnalytics .sec8Mobile .slick-slider .slick-slide {
+    width: 215px !important;
+    height: 65px;
+    background-color: #FFFFFF;
+  }
+
+  #DataAnalytics .sec8Mobile .MobileContentDiv {
+    display: flex !important;
+    align-items: center;
+    gap: 15px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 10px 10px;
+    border: 1px solid #EAEAEA;
+    width: 200px !important;
+  }
+
+
+
+  #DataAnalytics .sec8Mobile .slick-slider .slick-prev {
+    display: none !important;
+  }
+
+  #DataAnalytics .sec8Mobile .slick-slider .slick-next {
+    display: none !important;
+  }
+
+  #DataAnalytics .sec8Mobile .MobileImageDiv {
+    width: 75px;
+    height: 55px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #DataAnalytics .sec8Mobile .MobileContentDiv img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #DataAnalytics .sec8Mobile h4 {
+    color: #000000;
+    font-family: DMSansBold;
+    font-size: clamp(1.25rem, 0.9375rem + 1.6667vw, 1.5625rem);
+    text-align: center;
+    margin-bottom: 20px !important;
+  }
+
+  #DataAnalytics .sec8Mobile .MobileContentDiv p {
+    color: #000000;
+    font-family: DMSansBold;
+    font-size: 12px;
+  }
+
+
+
+  #DataAnalytics .Dasection9 {
+    display: none !important;
+  }
+
+  /* DataAnaRegion */
+  #DataAnalytics #DataAnaRegion {
+    display: block !important;
+  }
+
+  #DataAnalytics #DataAnaRegion h3 {
+    font-family: DMSansBold;
+  }
+
+  #DataAnalytics #DataAnaRegion .MobileDataDevelopSerives .accordion-button {
+    background-color: #F5F5F8 !important;
+    color: #141125 !important;
+    font-family: DMSansBold !important;
+    border: none !important;
+    --bs-accordion-border-color: transparent !important;
+    border-radius: 10px !important;
+  }
+
+
+  #DataAnalytics #DataAnaRegion .MobileDataDevelopSerives .accordion-button::after {
+    display: none !important;
+  }
+
+  #DataAnalytics #DataAnaRegion .MobileDataDevelopSerives .accordion-button:not(.collapsed) {
+    color: #473BF0 !important;
+  }
+
+  #DataAnalytics #DataAnaRegion .MobileDataDevelopSerives .accordion-item {
+    border-radius: 10px;
+    border: none !important;
+    margin: 10px 0px !important;
+  }
+
+  #DataAnalytics #DataAnaRegion .MobileDataDevelopSerives .accordion-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    background-color: #F5F5F8 !important;
+  }
+
+  #DataAnalytics #DataAnaRegion .MobileDataDevelopSerives .accordion-body li {
+    font-family: DMSansRegular;
+    font-size: 14px;
+    color: #505050 !important;
+  }
+
+  #DataAnalytics #DataAnaRegion .MobileDataDevelopSerives .accordion-button.collapsed::after {
+    /* display: none !important; */
+  }
+
+  #DataAnalytics #NewContactForm {
+    display: none !important;
+  }
+
+}
